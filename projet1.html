@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang=" fr">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="style/reset.css">
+		<link rel="stylesheet" href="style/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Crimson+Text&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Barlow&display=swap" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<title>STG : SPACE TYPE GENERATOR l Florian Cxxxxxb</title>
+	</head>
+
+	<body>
+		
+		<nav>
+				<a href="index.html" title="home">
+				<div class="text-block">Florian Cxxxxxb</div>
+				</a>
+
+			<ul class="liste-nav">
+				<a href="about.html" title="à propos"><li>about</li></a>
+				<a href="portfolio.html" title="mes projets"><li>Projets</li></a>
+				<a href="#" class="btn btn-info btn-lg cta-open"><li>Contact</li></a>
+			</ul>	
+		</nav>
+
+		<header>
+				<img class="image1-projet" src="images/mockup-stg.jpg" alt="Affiche Space Type Genrator" title="Affiche Space Type Genrator">
+		</header>
+
+
+		<section>
+
+			<div>
+				<div class="div1-section-projet">
+					<h1 class="h1-projet">STG : SPACE TYPE GENERATOR</h1>
+					<figure id="drag">
+						<h2 class="h2-projet">Identité visuelle</h2>
+					</figure>
+				</div>
+			</div>
+
+			<div class="div2-section-projet">
+
+				<img class="image2-projet" src="images/formestg.jpg" title="Forme utilisée pour l'affiche" alt="Forme utilisée pour l'affiche"></a>
+
+				<p class="p-projet">
+					STG ou SPACE TYPE GENERATOR est un générateur de formes diverses et variées. Ce logiciel présente sur une page internet nous invites à manipuler une forme et à la déformer selon nos envies. 
+					<br><br>
+					Ce logiciel nous invite indirectement à manipuler et expérimenter de nouvelles choses. J'ai donc choisi de composer une affiche et de trouver un sens à la forme que je venais de créer.
+					<br><br>
+					Elle m'inspirait l'espace le côté infini ce dernier. Je voulais donc orienter mon affiche vers cette lecture spatiale.
+				</p>
+			</div>
+
+		</section>
+
+		<section class="toggle-form">
+
+			  	<div class="formwrap">  
+			   		<div class="icon-close pos-a"><img src="images/croix.png" alt="Close Button"></div>
+				
+				<form action="#" method="post">	
+					<div class="background-formulaire">
+						<p class="titre-formulaire">Formulaire de contact</p>
+
+						<div class="form-group">
+							<p class="texte-formulaire">Adresse mail</p>
+							<input type="texte-for" id="email_address" name="email_address" class="form-control validate[required,custom[email]]" data-error="Please enter a valid email" required>
+							<div class="help-block with-errors"></div>
+						</div>
+
+						<div class="form-group">
+							<p class="texte-formulaire">Message</p>
+							<textarea type="text" id="message" name="message" class="form-control-message" ></textarea> 
+							<div class="help-block with-errors"></div>
+						</div>
+
+						<p class="soumettre"><button type="submit" class=" orange">Soumettre</button></p>	
+
+						<p class="texte-probleme">(Ce formulaire n'est pas fonctionnel pour le moment :/ )
+						<br><br>
+						Pour me contacter, merci de m'écrire à cette adresse :
+						<br><br>
+						florian.coulomb94<span
+						class="protectionspam">SUITEDECARACTERES</span>@yahoo.fr
+						</p>
+						
+					</div>
+				</form>  
+
+			</section>
+
+		<div class="div-footer">
+			<footer>
+				<ul class="social-network">
+					<a href="https://www.instagram.com/florianclb/saved/" target="blank"><li>Instagram</li></a>
+					<a href="alfnsfsfqfq" target="blank"><li>Twitter</li></a>
+					<a href="alfnsfsfqfq" target="blank"><li>Facebook</li></a>
+					<a href="https://www.linkedin.com/in/florian-coulomb-2835b21aa/" target="blank"><li>LinkedIn</li></a>
+					<a href="alfnsfsfqfq" target="blank"><li>Indeed</li></a>
+				</ul>
+			</footer>
+		</div>
+
+	<!--PARAMÈTRE DU CURSEUR-->
+		<div class="pointer"></div>
+
+		<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+		<script type="text/javascript">
+			$(document).mousemove(function(e){
+				$('.pointer').css({left:e.pageX, top:e.pageY})
+			})
+		</script>
+
+		<script type="text/javascript" src="script/slideout.js"></script>
+
+		<script type="text/javascript" src="script/smoothState.js"></script>
+
+		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+		<script>
+			$( function() {
+			  $( "#drag" ).draggable();
+			} );
+		</script>
+
+	</body>
+</html>

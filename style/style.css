@@ -1,0 +1,500 @@
+/** vh = la valeur de la fenêtre **/
+
+/** CCS DU POINTER (SOURIS) **/
+
+.pointer{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 30px;
+	height: 30px;
+	background: rgba(255,255,255,.2);
+	border: 1px solid rgba(255,255,255,.2);
+	border-radius: 50%;
+	pointer-events: none;
+	box-sizing: border-box;
+}
+
+/** CSS DU CORPS SITE GÉNÉRAL **/
+
+html, body {
+	height: 100%;
+	margin: 0; padding: 0;
+}
+
+body{
+	background-color: #212121;
+	margin: 0px;
+	padding: 0px;
+	padding-bottom: 35px;
+	display : table;
+	width: 100%;
+	position: relative;
+	min-height: 100%;
+	min-width: 100%;
+}
+
+header{
+	padding-right: 30vh;
+	padding-left: 30vh;
+	padding-top: 9vh; 
+}
+
+section{
+	padding-right: 30vh;
+	padding-left: 30vh; 
+	padding-top: 80px;
+}
+
+h1{
+	font-size: 3em;
+	font-family: 'Barlow', sans-serif;
+	color: white;
+}
+
+a{
+	text-decoration: none;
+	color: white;		
+}
+
+div{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+	height: auto;
+}
+
+/** CSS DE LA BARRE DE NAVIGATION **/
+
+.liste-nav{
+	position: fixed;
+	top: 18px;
+	right: 6vh;
+	width: 200px;
+	display: flex;
+	text-align: center;
+	background-color: #06B7FB;
+	padding: 2px;
+	padding-left: 60%;
+	padding-bottom: 4px;
+	border-radius: 4px;
+}
+
+.text-block {
+	left: 7vh;
+	top: 18px;
+	font-size: 1.1em;
+	font-family: 'Barlow', sans-serif;
+	width: 130px;
+	text-align: center;
+	padding: 8px;
+	position: fixed;
+	background-color: #06B7FB;
+	padding-right: 8%;
+	padding-bottom: 10px;
+	border-radius: 4px;
+	color: black;	
+}
+
+.text-block:hover{
+	color: white;
+	transition: 0.5s ease;
+}
+
+.liste-nav li{
+	text-align: center;
+	padding: 6px;
+	text-transform: lowercase;
+	font-family: 'Barlow', sans-serif;
+	font-size: 1.1em;
+	color: #212121;
+}
+
+.liste-nav li:hover{
+	color: white;
+	transition: 0.5s ease;
+}
+
+/** CSS DE LA BARRE DES RÉSEAUX SOCIAUX **/ 
+
+.div-footer{
+	padding-top: 10vh;
+	width: auto;
+}
+
+footer{
+	position: absolute;
+	bottom: 20px;
+	display : table-row;
+	background-color: #06B7FB;
+	padding-right: 60%;
+	padding: 10px;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+
+footer li{
+	text-align: center;	
+	padding-right: 20px;
+	font-family: 'Barlow', sans-serif;
+	font-size: 1em;
+	color: black;
+}
+
+footer li:hover{
+	color: white;
+	transition: 0.5s ease;
+} 
+
+.social-network{
+	display: flex;
+	text-align: center;
+	padding-left: 6vh;
+}
+
+/** CCS DE L'INDEX **/
+
+.div-index{
+	display: flex;
+	padding-top: 30vh;
+	align-items: flex-start;
+
+}
+
+.citation{
+	font-family: 'Megrim', cursive;
+	font-size: 3.2em;
+	flex: 10;
+	align-self: center;
+}
+
+.trait{
+	margin-top: 30px;
+	align-self: center;
+	margin-right: 20px;
+	width: 50px;
+	height: 2px;
+	background-color: white;
+}
+
+.autor-name{
+	margin-top: 15px;
+	align-self: center;
+	font-size: 1.5em;
+	color: white;
+	flex: 2;
+	font-family: 'Megrim', cursive;
+}
+
+.phrase-index{
+	font-family: 'Barlow', sans-serif;
+	color: white;
+	margin-left: 12px;
+	margin-top: 20px;
+	font-size: 0.9em;
+	background-color: #06B7FB;
+	padding: 9px;
+	width: 770px;
+	border-radius: 4px;
+	font-size: 1.1em;
+	color:#212121;
+}
+
+/** CSS DU ABOUT **/
+
+.image-about{
+	height: 562.5px;
+	width: 1000px;
+	display: block;
+	border-radius: 4px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.information-perso{
+	display: flex;
+	padding-top: 70px;
+}
+
+.paragraphe-perso{
+	width: 400px;
+	margin-left: auto;
+	color: white;
+	font-family: 'Barlow', sans-serif;
+	font-size: 1em;
+	word-spacing: 2px;
+	text-align: justify;
+}
+
+.information-client{
+	color: white;
+	font-family: 'Barlow', sans-serif;
+	font-size: 1em;
+}
+
+/** CSS DU PORTFOLIO **/
+
+.portfolio-section{
+	padding-top: 6vh;
+}
+
+.image-portfolio{
+	display: block;
+	height: 150px;
+	width: 1000px;
+	border-radius: 4px;
+	margin-top: 3vh;
+}
+
+.projet .hover-projet{
+	position: absolute;
+	opacity: 0;
+	transition: 0.5s ease;
+	height: 0px;
+	width: 1000px;
+	margin-top: 150px;
+}
+
+.projet:hover .hover-projet{
+ 	opacity: 1;
+	background-color: rgba(0,0,0,0.8);
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 3px;
+	margin-top: 100px;
+	height: 50px;
+}
+
+.text-projet{
+	position: absolute;
+	font-family: 'Barlow', sans-serif;
+	font-size: 1em;
+	bottom: 20px;
+	left: 20px;
+}
+
+/** CSS DES PROJETS **/
+
+.image1-projet{
+	height: 562.5px;
+	width: 1000px;
+	display: block;
+	border-radius: 4px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.div1-section-projet{
+	display: flex;
+	align-items: flex-start;
+	width: 1000px;
+}
+
+.h1-projet{
+	flex: 7;
+	align-self: center;
+}
+
+.h2-projet{
+	align-self: center;
+	font-size: 1.5em;
+	color: black;
+	font-family: 'Barlow', sans-serif;
+	background-color: #06B7FB;
+	padding: 8px;
+	padding-bottom: 10px;
+	border-radius: 4px;
+	margin-top: 6px;
+}
+
+.div2-section-projet{
+	display: flex;
+	padding-top: 70px;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.p-projet{
+	color: white;
+	font-family: 'Barlow', sans-serif;
+}
+
+.image2-projet{
+	height: 253px;
+	width: 450px;
+	margin-right: 8vh;
+	border-radius: 4px;
+}
+
+.div-hover-projets{
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	width: auto;
+	height: auto;
+}
+
+.image2-projet-hover{
+	opacity: 0;
+	height: 253px;
+	width: 450px;
+	margin-right: 8vh;
+	border-radius: 4px;
+}
+
+.image2-projet-hover:hover{
+	opacity: 1;
+	transition: 0.5s;
+}
+
+/** CSS DU CONTACT **/
+
+.icon-close {
+	transition: right .6s ease-in-out;
+	cursor: pointer;
+}
+
+.toggle-form .formwrap img {
+    width: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.toggle-form a{
+	color: #fff;
+	text-align: center;
+	margin-bottom: 10px;
+
+}
+.texte-formulaire{
+	padding-bottom: 10px;
+	color: #fff;
+  	font-family: 'Barlow', sans-serif;
+}
+
+.toggle-form {
+	padding-right: 0vh;
+	padding-left: 0vh; 
+	padding-top: 0px;
+	right: -9999px;
+	position: fixed;
+	top: 0;
+	width: 520px;
+	height: 100%;
+	z-index: 9999;
+	transition: right 0.5s ease-in-out;
+}
+
+.toggle-form.active {
+    right: 0;
+}
+.formwrap {
+	background-color: rgba(0,0,0,0.8); 
+	max-width: 520px;
+	height: 100%;
+	float: right;
+}
+
+.form-group{
+	padding-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 400px;
+}
+
+.form-control, .form-control-message{
+    display: block;
+    padding: 0.5em 0.5em;
+    font-size: .9em;
+    line-height: 1.25;
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,0.15);
+    border-radius: 4px;
+	width: 350px;
+    background-color: white;
+    border-color: #fff;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+
+textarea{
+	height: 5em;
+}
+
+.form-control-message{
+	height: 200px;
+	display: inline-block;
+}
+
+.background-formulaire{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 4px;
+	margin-top: 5vh;
+	height: 85vh;
+	width: 420px;
+	background-color: rgba(52, 183, 243, 0.5);
+}
+
+.titre-formulaire{
+	padding-bottom: 20px;
+	padding-top: 5vh;
+	font-size: 2em;	
+	font-family: 'Barlow', sans-serif;
+	color: white;
+}
+
+.soumettre{
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.orange {
+	font-family: 'Barlow', sans-serif;
+    background-color: white;
+    border-color: grey;
+    color: black;
+    padding: .5rem 2em;
+    font-size: 1em;
+    line-height: 1.5;
+    border-radius: 4px;
+  	cursor: pointer;
+}
+.orange:hover {
+    background-color: grey;
+    border-color: black;
+    color: black;
+}
+
+.texte-probleme{
+	font-family: 'Barlow', sans-serif;
+	color: white;
+}
+
+.protectionspam{
+	display: none;
+}
+
+.transition-fade {
+	transition: 0.4s;
+	opacity: 1;
+	transform: translateX(0);
+	transform-origin: left;
+}
+
+html.is-leaving .transition-fade {
+	opacity: 1;
+	transform: translate(100%);
+}
+
+html.is-animating .transition-fade {
+	opacity: 0;
+	transform: translate(0);
+}

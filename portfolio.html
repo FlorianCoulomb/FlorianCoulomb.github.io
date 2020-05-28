@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang=" fr">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="style/reset.css">
+		<link rel="stylesheet" href="style/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Crimson+Text&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Barlow&display=swap" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<title>Portfolio l Florian Cxxxxxb</title>
+	</head>
+
+	<body>
+		
+		<nav>
+				<a href="index.html" title="home">
+				<div class="text-block">Florian Cxxxxxb</div>
+				</a>
+
+			<ul class="liste-nav">
+				<a href="about.html" title="à propos"><li>about</li></a>
+				<a href="portfolio.html" title="mes projets"><li>Projets</li></a>
+				<a href="#" class="btn btn-info btn-lg cta-open"><li>Contact</li></a>
+			</ul>	
+		</nav>
+
+		
+		<section class="portfolio-section">
+			
+			<div class="overlay-section-portfolio">
+
+				<div class="projet">
+					<a href="projet1.html">
+						<div class="hover-projet">
+		  					<div class="text-projet">STG : SPACE TYPE GENERATOR</div>
+		 				</div>
+		 				<img class="image-portfolio" src="images/portfolio-stg.jpg" title="Photo de mon affiche Space type generator" alt="Photo de mon affiche Space type generator">
+					</a>
+				</div>
+
+				<div class="projet">
+					<a href="projet2.html">
+						<div class="hover-projet">
+		  					<div class="text-projet">VIKTOR & ROLF : CARTON D'INVITATION</div>
+		 				</div>
+		 				<img class="image-portfolio" src="images/portfolio-viktor&rolf.jpg" title="Photo de mon carton d'invitation Viktor & Rolf" alt="Photo de mon carton d'invitation Viktor & Rolf">
+					</a>
+				</div>
+
+				<div class="projet">
+					<a href="projet3.html">
+						
+						<div class="hover-projet">
+		  					<div class="text-projet">IMAGIER</div>
+		 				</div>
+		 				<img class="image-portfolio" src="images/portfolio-imagier.jpg" title="Photo de mon imagier" alt="Photo de mon imagier">
+					</a>
+				</div>
+
+				<div class="projet">
+					<a href="projet4.html">
+						<div class="hover-projet">
+		  					<div class="text-projet">LETTERS ARE...</div>
+		 				</div>
+		 				<img class="image-portfolio" src="images/portfolio-lettersare.jpg" title="Photo de mes affiches Letters are..." alt="Photo de mes affiches Letters are...">
+					</a>
+				</div>
+
+				<div class="projet">
+					<a href="projet5.html">
+						<div class="hover-projet">
+		  					<div class="text-projet">POP-UP</div>
+		 				</div>
+		 				<img class="image-portfolio" src="images/portfolio-popup.jpg" title="Photo de mon Pop-up" alt="Photo de mon Pop-up">
+					</a>
+				</div>
+
+			</div>
+
+		</section>
+
+		<section class="toggle-form">
+
+			  	<div class="formwrap">  
+			   		<div class="icon-close pos-a"><img src="images/croix.png" alt="Close Button"></div>
+				
+				<form action="#" method="post">	
+					<div class="background-formulaire">
+						<p class="titre-formulaire">Formulaire de contact</p>
+
+						<div class="form-group">
+							<p class="texte-formulaire">Adresse mail</p>
+							<input type="texte-for" id="email_address" name="email_address" class="form-control validate[required,custom[email]]" data-error="Please enter a valid email" required>
+							<div class="help-block with-errors"></div>
+						</div>
+
+						<div class="form-group">
+							<p class="texte-formulaire">Message</p>
+							<textarea type="text" id="message" name="message" class="form-control-message" ></textarea> 
+							<div class="help-block with-errors"></div>
+						</div>
+
+						<p class="soumettre"><button type="submit" class=" orange">Soumettre</button></p>
+
+						<p class="texte-probleme">(Ce formulaire n'est pas fonctionnel pour le moment :/ )
+						<br><br>
+						Pour me contacter, merci de m'écrire à cette adresse :
+						<br><br>
+						florian.coulomb94<span
+						class="protectionspam">SUITEDECARACTERES</span>@yahoo.fr
+						</p>
+
+					</div>
+				</form>  
+				  
+			</section>
+		
+
+		<div class="div-footer">
+			<footer>
+				<ul class="social-network">
+					<a href="https://www.instagram.com/florianclb/saved/" target="blank"><li>Instagram</li></a>
+					<a href="alfnsfsfqfq" target="blank"><li>Twitter</li></a>
+					<a href="alfnsfsfqfq" target="blank"><li>Facebook</li></a>
+					<a href="https://www.linkedin.com/in/florian-coulomb-2835b21aa/" target="blank"><li>LinkedIn</li></a>
+					<a href="alfnsfsfqfq" target="blank"><li>Indeed</li></a>
+				</ul>
+			</footer>
+		</div>
+
+
+	<!--PARAMÈTRE DU CURSEUR-->
+		<div class="pointer"></div>
+
+		<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+		<script type="text/javascript">
+			$(document).mousemove(function(e){
+				$('.pointer').css({left:e.pageX, top:e.pageY})
+			})
+		</script>
+
+		<script type="text/javascript" src="script/slideout.js"></script>
+
+
+	</body>
+</html>
