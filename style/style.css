@@ -316,13 +316,13 @@ footer li:hover{
 }
 
 .p-projet{
-	flex: 4;
+	flex: auto;
 	color: white;
 	font-family: 'Barlow', sans-serif;
 }
 
 .image2-projet{
-	flex: 3.7;
+	flex: auto;
 	height: 253px;
 	width: 450px;
 	margin-right: 60px;
