@@ -316,14 +316,16 @@ footer li:hover{
 }
 
 .p-projet{
+	flex: 4;
 	color: white;
 	font-family: 'Barlow', sans-serif;
 }
 
 .image2-projet{
+	flex: 3.7;
 	height: 253px;
 	width: 450px;
-	margin-right: 8vh;
+	margin-right: 60px;
 	border-radius: 4px;
 }
 
@@ -414,7 +416,6 @@ footer li:hover{
     border: 1px solid rgba(0,0,0,0.15);
     border-radius: 4px;
 	width: 350px;
-    background-color: white;
     border-color: #fff;
     color: black;
     margin-left: auto;
@@ -436,10 +437,11 @@ textarea{
 	margin-left: auto;
 	margin-right: auto;
 	border-radius: 4px;
-	margin-top: 5vh;
+	margin-top: 3vh;
 	height: 85vh;
 	width: 420px;
-	background-color: rgba(52, 183, 243, 0.5);
+	background-color: rgba(255,255,255,0.1);
+	border: solid white 1px;
 }
 
 .titre-formulaire{
@@ -480,21 +482,4 @@ textarea{
 
 .protectionspam{
 	display: none;
-}
-
-.transition-fade {
-	transition: 0.4s;
-	opacity: 1;
-	transform: translateX(0);
-	transform-origin: left;
-}
-
-html.is-leaving .transition-fade {
-	opacity: 1;
-	transform: translate(100%);
-}
-
-html.is-animating .transition-fade {
-	opacity: 0;
-	transform: translate(0);
 }
