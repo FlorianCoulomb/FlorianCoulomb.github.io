@@ -58,9 +58,7 @@ h3{
 	padding-bottom: 30px;
 	font-family: 'Barlow', sans-serif;
 	font-size: 1.7em;
-	font-weight: bold;
-	letter-spacing: -1px;
-	
+	font-weight: 500;
 }
 
 a{
@@ -82,8 +80,7 @@ p{
 
 b{	
 	color: white;
-	font-weight: bolder;
-	letter-spacing: -0.5px;
+	font-weight: 500;
 }
 
 /** CSS DE LA BARRE DE NAVIGATION **/
@@ -175,6 +172,8 @@ footer li:hover{
 
 /** CCS DE L'INDEX **/
 
+/** Ancien index
+
 .div-index{
 	display: flex;
 	padding-top: 30vh;
@@ -219,6 +218,25 @@ footer li:hover{
 	border-radius: 4px;
 	font-size: 1.1em;
 	color:#212121;
+}
+
+**/
+
+.h1-index{
+	margin-top: 27vh;
+	text-align: center;
+	font-size: 8em;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+}
+
+.p-index{
+	text-align: center;
+	font-family: 'Barlow', sans-serif;
+	letter-spacing: 5px;
+	margin-top: 3px;
+	font-weight: 500;
+
 }
 
 /** CSS DU ABOUT **/
@@ -514,7 +532,7 @@ textarea{
 .information-cv p{
 	color: rgb(207, 207, 207);
 	margin-bottom: 80px;
-	font-weight: lighter;
+	font-weight: 300;
 }	
 
 .date{
