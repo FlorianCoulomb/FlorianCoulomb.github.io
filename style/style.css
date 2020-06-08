@@ -223,14 +223,11 @@ footer li:hover{
 **/
 
 .div-index{
-	height: 4em;
-	line-height: 3.2em;
-	white-space: nowrap;
+	margin-top: 50vh;
+	transform: translateY(-50%);
 }
 
 .h1-index{
-	transform: translateY(-50%);
-	margin-top: 38vh;
 	text-align: center;
 	font-size: 8em;
 	font-family: 'Montserrat', sans-serif;
@@ -238,6 +235,7 @@ footer li:hover{
 }
 
 .p-index{
+	margin-top: 3px;
 	text-align: center;
 	font-family: 'Barlow', sans-serif;
 	letter-spacing: 5px;
