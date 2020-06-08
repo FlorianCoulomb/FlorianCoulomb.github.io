@@ -222,8 +222,15 @@ footer li:hover{
 
 **/
 
+.div-index{
+	height: 4em;
+	line-height: 3.2em;
+	white-space: nowrap;
+}
+
 .h1-index{
-	margin-top: 27vh;
+	transform: translateY(-50%);
+	margin-top: 38vh;
 	text-align: center;
 	font-size: 8em;
 	font-family: 'Montserrat', sans-serif;
@@ -234,7 +241,6 @@ footer li:hover{
 	text-align: center;
 	font-family: 'Barlow', sans-serif;
 	letter-spacing: 5px;
-	margin-top: 3px;
 	font-weight: 500;
 
 }
