@@ -36,8 +36,8 @@ body{
 }
 
 header{
-	padding-right: 30vh;
-	padding-left: 30vh;
+	padding-right: 15.5vw;
+	padding-left: 15.5vw; 
 	padding-top: 9vh; 
 }
 
@@ -51,6 +51,7 @@ h1{
 	font-size: 3em;
 	font-family: 'Barlow', sans-serif;
 	color: white;
+	font-weight: 500;
 }
 
 h3{
@@ -225,22 +226,24 @@ footer li:hover{
 .div-index{
 	margin-top: 50vh;
 	transform: translateY(-50%);
+	width: 100%;
 }
 
 .h1-index{
 	text-align: center;
-	font-size: 8em;
+	font-size: 7em;
 	font-family: 'Montserrat', sans-serif;
-	font-weight: 600;
+	font-weight: 700;
 }
 
 .p-index{
 	margin-top: 3px;
 	text-align: center;
 	font-family: 'Barlow', sans-serif;
-	letter-spacing: 5px;
-	font-weight: 500;
-
+	letter-spacing: 10px;
+	font-weight: 400;
+	font-size:  2em;
+	color: #06B7FB;
 }
 
 /** CSS DU ABOUT **/
@@ -528,15 +531,33 @@ textarea{
 
 /** CSS DU CV **/
 
+.section-cv h1{
+	padding-top: 2vh;
+	padding-left: 7vw;
+}
+
+.section-cv{
+	width: 1000px;
+	padding-right: 1vw;
+	padding-left: 1vw; 
+	padding-top: 50px;
+	margin-top: 70px;
+	margin-right: auto;
+	margin-left: auto;
+	border: solid #06B7FB 2px;
+	border-radius: 4px;
+	padding-bottom: 50px;
+}
+
 .information-cv{
 	display: flex;
 	padding-top: 70px;
 }
 
 .information-cv p{
-	color: rgb(207, 207, 207);
+	color: white;
 	margin-bottom: 80px;
-	font-weight: 300;
+	font-weight: 200;
 }	
 
 .date{
@@ -578,6 +599,7 @@ textarea{
 
 .cv-telechargeable{
 	text-align: center;
+	width: 950px;
 	background-color: #06B7FB;
 	padding: 10px;
 	border-radius: 4px;
