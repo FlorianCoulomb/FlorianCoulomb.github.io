@@ -88,6 +88,7 @@ b{
 
 .liste-nav{
 	position: fixed;
+	z-index: 3;
 	top: 18px;
 	right: 6vh;
 	width: 235px;
@@ -101,6 +102,7 @@ b{
 }
 
 .text-block {
+	z-index: 3;
 	left: 7vh;
 	top: 18px;
 	font-size: 1.1em;
@@ -173,55 +175,6 @@ footer li:hover{
 
 /** CCS DE L'INDEX **/
 
-/** Ancien index
-
-.div-index{
-	display: flex;
-	padding-top: 30vh;
-	align-items: flex-start;
-
-}
-
-.citation{
-	font-family: 'Megrim', cursive;
-	font-size: 3.2em;
-	flex: 10;
-	align-self: center;
-}
-
-.trait{
-	margin-top: 30px;
-	align-self: center;
-	margin-right: 20px;
-	width: 50px;
-	height: 2px;
-	background-color: white;
-}
-
-.autor-name{
-	margin-top: 15px;
-	align-self: center;
-	font-size: 1.5em;
-	color: white;
-	flex: 2;
-	font-family: 'Megrim', cursive;
-}
-
-.phrase-index{
-	font-family: 'Barlow', sans-serif;
-	color: white;
-	margin-left: 12px;
-	margin-top: 20px;
-	font-size: 0.9em;
-	background-color: #06B7FB;
-	padding: 9px;
-	width: 770px;
-	border-radius: 4px;
-	font-size: 1.1em;
-	color:#212121;
-}
-
-**/
 
 .div-index{
 	margin-top: 50vh;
@@ -249,6 +202,7 @@ footer li:hover{
 /** CSS DU ABOUT **/
 
 .image-about{
+	border: #06B7FB solid 1px;
 	height: 562.5px;
 	width: 1000px;
 	display: block;
@@ -321,12 +275,85 @@ footer li:hover{
 /** CSS DES PROJETS **/
 
 .image1-projet{
+	border: #06B7FB solid 1px;
 	height: 562.5px;
 	width: 1000px;
 	display: block;
 	border-radius: 4px;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+/** CSS DU SLIDER **/
+
+.slider-container{
+	border: #06B7FB solid 1px;
+	height: 562.5px;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+	text-align: center;
+	border-radius: 4px;
+}
+
+.image-container{
+	z-index: 1;
+	height: 562.5px;
+	width: 6000px;
+	position: relative;
+	transition: left 2s;
+	-webkit-transition: left 2s;
+	-moz-transition: left 2s;
+	-o-transition: left 2s;
+}
+
+.slider-image{
+	height: 562.5px;
+	width: 1000px;
+	float: left;
+	padding: 0px;
+	margin: 0px;
+	margin-top: 1px;
+}
+
+.button-container{
+	z-index: 1;
+	top: -30px;
+	position: relative;
+}
+
+.slider-button{
+	display: inline-block;
+	height: 13px;
+	width: 13px;
+	margin-left: 3px;
+	border-radius: 7px;
+	background-color: #212121;
+}
+
+#slider-image-1:target ~ .image-container{
+	left: 0px;
+}
+
+#slider-image-2:target ~ .image-container{
+	left: -1000px;
+}
+
+#slider-image-3:target ~ .image-container{
+	left: -2000px;
+}
+
+#slider-image-4:target ~ .image-container{
+	left: -3000px;
+}
+
+#slider-image-5:target ~ .image-container{
+	left: -4000px;
+}
+
+#slider-image-6:target ~ .image-container{
+	left: -5000px;
 }
 
 .div1-section-projet{
@@ -372,6 +399,7 @@ footer li:hover{
 	width: 450px;
 	margin-right: 60px;
 	border-radius: 4px;
+	border: #06B7FB solid 1px;
 }
 
 .div-hover-projets{
@@ -388,6 +416,7 @@ footer li:hover{
 	width: 450px;
 	margin-right: 60px;
 	border-radius: 4px;
+	border: #06B7FB solid 1px;
 }
 
 .image2-projet-hover:hover{
@@ -531,9 +560,17 @@ textarea{
 
 /** CSS DU CV **/
 
-.section-cv h1{
+.section-cv h1, h2{
 	padding-top: 2vh;
 	padding-left: 7vw;
+}
+
+.section-cv h2{
+	padding-top: 1.5vh;
+	margin-left: 3px;
+	color: #06B7FB;
+	font-family: 'Barlow', sans-serif;
+	font-size: 1.2em;
 }
 
 .section-cv{
