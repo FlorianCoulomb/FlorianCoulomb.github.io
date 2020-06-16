@@ -32,7 +32,7 @@ body{
 	width: 100%;
 	position: relative;
 	min-height: 100%;
-	min-width: 100%;
+	min-width: 1000px;
 }
 
 header{
@@ -96,7 +96,7 @@ b{
 	text-align: center;
 	background-color: #06B7FB;
 	padding: 2px;
-	padding-left: 57.5%;
+	padding-left: 57.5vw;
 	padding-bottom: 4px;
 	border-radius: 4px;
 }
@@ -112,7 +112,7 @@ b{
 	padding: 8px;
 	position: fixed;
 	background-color: #06B7FB;
-	padding-right: 8%;
+	padding-right: 8vw;
 	padding-bottom: 10px;
 	border-radius: 4px;
 	color: black;	
@@ -285,6 +285,10 @@ footer li:hover{
 }
 
 /** CSS DU SLIDER **/
+
+.slider-span{
+	display: none;
+}
 
 .slider-container{
 	border: #06B7FB solid 1px;
