@@ -24,10 +24,9 @@ html, body {
 }
 
 body{
-	background-color: #212121;
+	background-color: #f3f3f3;
 	margin: 0px;
 	padding: 0px;
-	padding-bottom: 35px;
 	display : table;
 	width: 100%;
 	position: relative;
@@ -36,21 +35,18 @@ body{
 }
 
 header{
-	padding-right: 15.5vw;
-	padding-left: 15.5vw; 
-	padding-top: 9vh; 
+	height: 100vh;
 }
 
 section{
-	padding-right: 15.5vw;
-	padding-left: 15.5vw; 
-	padding-top: 80px;
+	background-color: #f3f3f3;
+	padding-top: 15vh;
 }
 
 h1{
 	font-size: 3em;
 	font-family: 'Barlow', sans-serif;
-	color: white;
+	color: black;
 	font-weight: 500;
 }
 
@@ -64,7 +60,7 @@ h3{
 
 a{
 	text-decoration: none;
-	color: white;		
+	color: black;		
 }
 
 div{
@@ -76,7 +72,7 @@ div{
 
 p{
 	font-family: 'Barlow', sans-serif;
-	color: white;	
+	color: black;	
 }
 
 b{	
@@ -94,7 +90,6 @@ b{
 	width: 235px;
 	display: flex;
 	text-align: center;
-	background-color: #06B7FB;
 	padding: 2px;
 	padding-left: 57.5vw;
 	padding-bottom: 4px;
@@ -109,17 +104,13 @@ b{
 	font-family: 'Barlow', sans-serif;
 	width: 130px;
 	text-align: center;
-	padding: 8px;
+	margin: 8px;
 	position: fixed;
-	background-color: #06B7FB;
-	padding-right: 8vw;
-	padding-bottom: 10px;
-	border-radius: 4px;
-	color: black;	
+	margin-bottom: 10px;
 }
 
-.text-block:hover{
-	color: white;
+.text-block p:hover{
+	text-decoration:  line-through;
 	transition: 0.5s ease;
 }
 
@@ -128,42 +119,41 @@ b{
 	padding: 6px;
 	font-family: 'Barlow', sans-serif;
 	font-size: 1.1em;
-	color: #212121;
 }
 
 .liste-nav li:hover{
-	color: white;
+	text-decoration:  line-through;
 	transition: 0.5s ease;
 }
 
 /** CSS DE LA BARRE DES RÉSEAUX SOCIAUX **/ 
 
 .div-footer{
-	padding-top: 10vh;
+	background-color: #f3f3f3;
+	padding-top: 15vh;
 	width: auto;
+	padding-bottom: 35px;
 }
 
 footer{
 	position: absolute;
-	bottom: 20px;
+	bottom: 0px;
 	display : table-row;
-	background-color: #06B7FB;
-	padding-right: 60%;
-	padding: 10px;
-	border-top-right-radius: 4px;
-	border-bottom-right-radius: 4px;
+	padding-top: 77px;
+	padding-left: 17px;
+	padding-bottom: 30px;
 }
 
 footer li{
 	text-align: center;	
 	padding-right: 20px;
 	font-family: 'Barlow', sans-serif;
-	font-size: 1em;
+	font-size: 1.1em;
 	color: black;
 }
 
 footer li:hover{
-	color: white;
+	text-decoration:  line-through;
 	transition: 0.5s ease;
 } 
 
@@ -187,26 +177,29 @@ footer li:hover{
 	font-size: 7em;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
+	color: rgb(255, 255, 255);
 }
 
 .p-index{
-	margin-top: 3px;
+	margin-top: 4px;
 	text-align: center;
 	font-family: 'Barlow', sans-serif;
-	letter-spacing: 10px;
-	font-weight: 400;
-	font-size:  2em;
-	color: #06B7FB;
+	letter-spacing: 11px;
+	font-weight: 500;
+	font-size: 2.1em;
+	color: rgb(255, 255, 255);
 }
 
 /** CSS DU ABOUT **/
 
+#section-about h1{
+	padding-left: 0vw;
+}
+
 .image-about{
-	border: #06B7FB solid 1px;
 	height: 562.5px;
 	width: 1000px;
 	display: block;
-	border-radius: 4px;
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -217,9 +210,9 @@ footer li:hover{
 }
 
 .paragraphe-perso{
-	width: 400px;
-	margin-left: auto;
 	color: white;
+	width: 500px;
+	margin-left: auto;
 	font-family: 'Barlow', sans-serif;
 	font-size: 1em;
 	word-spacing: 2px;
@@ -239,29 +232,27 @@ footer li:hover{
 }
 
 .image-portfolio{
+	border: solid black 0.5px;
 	display: block;
 	height: 150px;
 	width: 1000px;
-	border-radius: 4px;
 	margin-top: 3vh;
 }
 
 .projet .hover-projet{
+	border: solid black 0.5px;
 	position: absolute;
-	opacity: 0;
+	opacity: 1;
 	transition: 0.5s ease;
-	height: 0px;
+	height: 150px;
 	width: 1000px;
-	margin-top: 150px;
+	background-color: rgba(4, 20, 44, 0.952);
 }
 
 .projet:hover .hover-projet{
- 	opacity: 1;
-	background-color: rgba(0,0,0,0.8);
-	border-bottom-left-radius: 4px;
-	border-bottom-right-radius: 3px;
-	margin-top: 100px;
-	height: 50px;
+	opacity: 0;
+	width: 10px;
+	transition: 0.5s ease;
 }
 
 .text-projet{
@@ -270,16 +261,14 @@ footer li:hover{
 	font-size: 1em;
 	bottom: 20px;
 	left: 20px;
+	color: white;
 }
 
 /** CSS DES PROJETS **/
 
 .image1-projet{
-	border: #06B7FB solid 1px;
-	height: 562.5px;
-	width: 1000px;
+	height: 100%;
 	display: block;
-	border-radius: 4px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -291,19 +280,18 @@ footer li:hover{
 }
 
 .slider-container{
-	border: #06B7FB solid 1px;
-	height: 562.5px;
+	margin-top: 70px;
+	height: 562px;
 	width: 1000px;
 	margin-left: auto;
 	margin-right: auto;
 	overflow: hidden;
 	text-align: center;
-	border-radius: 4px;
 }
 
 .image-container{
+	height: 562px;
 	z-index: 1;
-	height: 562.5px;
 	width: 6000px;
 	position: relative;
 	transition: left 2s;
@@ -313,7 +301,7 @@ footer li:hover{
 }
 
 .slider-image{
-	height: 562.5px;
+	height: 562px;
 	width: 1000px;
 	float: left;
 	padding: 0px;
@@ -360,30 +348,25 @@ footer li:hover{
 }
 
 .div1-section-projet{
-	display: flex;
-	align-items: flex-start;
 	width: 1000px;
 }
 
 .h1-projet{
-	flex: 7;
-	align-self: center;
+	text-align: center;
 }
 
 .h2-projet{
-	align-self: center;
+	letter-spacing: 11px;
+	font-weight: 400;
+	margin-top: 20px;
+	padding: 0px;
+	text-align: center;
 	font-size: 1.5em;
 	color: black;
 	font-family: 'Barlow', sans-serif;
-	background-color: #06B7FB;
-	padding: 8px;
-	padding-bottom: 10px;
-	border-radius: 4px;
-	margin-top: 6px;
 }
 
 .div2-section-projet{
-	display: flex;
 	padding-top: 70px;
 	width: 1000px;
 	margin-right: auto;
@@ -391,35 +374,37 @@ footer li:hover{
 }
 
 .p-projet{
-	flex: 4;
-	color: white;
+	width: 700px;
 	font-family: 'Barlow', sans-serif;
+	margin: auto;
+	font-size: 1.2em;
+	font-weight: 300;
+	line-height: 1.7;
 }
 
 .image2-projet{
-	flex: 3.67;
-	height: 253px;
-	width: 450px;
-	margin-right: 60px;
-	border-radius: 4px;
-	border: #06B7FB solid 1px;
+	display: block;
+	margin-top: 70px;
+	width: 750px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .div-hover-projets{
 	position: absolute;
 	margin-left: auto;
 	margin-right: auto;
-	width: auto;
+	width: 1000px;
 	height: auto;
 }
 
 .image2-projet-hover{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 70px;
 	opacity: 0;
-	height: 253px;
-	width: 450px;
-	margin-right: 60px;
-	border-radius: 4px;
-	border: #06B7FB solid 1px;
+	width: 750px;
 }
 
 .image2-projet-hover:hover{
@@ -453,6 +438,7 @@ footer li:hover{
 }
 
 .toggle-form {
+	background-color: rgba(0, 0, 0, 0);
 	padding-right: 0vh;
 	padding-left: 0vh; 
 	padding-top: 0px;
@@ -468,8 +454,9 @@ footer li:hover{
 .toggle-form.active {
     right: 0;
 }
+
 .formwrap {
-	background-color: rgba(0,0,0,0.8); 
+	background-color: rgba(1, 14, 31, 0.897);
 	max-width: 520px;
 	height: 100%;
 	float: right;
@@ -513,12 +500,11 @@ textarea{
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	border-radius: 4px;
 	margin-top: 3vh;
 	height: 85vh;
 	width: 420px;
-	background-color: rgba(255,255,255,0.1);
-	border: solid white 1px;
+	background-color: #020d1fc2;
+	border: solid white 0.5px;
 }
 
 .titre-formulaire{
@@ -563,7 +549,20 @@ textarea{
 
 /** CSS DU CV **/
 
+.social-cv-about li{
+	color: white;
+}
+
+.nav-cv-about a, .nav-cv-about p{
+	color: white;
+}
+
+.body-cv-about{
+	background-color: #04142c;
+}
+
 .section-cv h1, h2{
+	color: white;
 	padding-top: 2vh;
 	padding-left: 7vw;
 }
@@ -577,16 +576,19 @@ textarea{
 }
 
 .section-cv{
+	background-color: #00000000;
 	width: 1000px;
 	padding-right: 1vw;
 	padding-left: 1vw; 
-	padding-top: 50px;
-	margin-top: 70px;
+	margin-top: 10px;
 	margin-right: auto;
 	margin-left: auto;
-	border: solid #06B7FB 1px;
 	border-radius: 4px;
-	padding-bottom: 50px;
+	padding-bottom: 20px;
+}
+
+.div-footer-cv{
+	background-color: rgba(0, 0, 0, 0);
 }
 
 .information-cv{
@@ -640,20 +642,18 @@ textarea{
 .cv-telechargeable{
 	text-align: center;
 	width: 950px;
-	background-color: #06B7FB;
-	padding: 10px;
 	border-radius: 4px;
-	margin-top: 15px;
 	font-family: 'Barlow', sans-serif;
 	font-size: 1.2em;
-	color: black;
+	color: #fff;
 }
 
 .cv-telechargeable a{
-	color: black;
+	color: #06B7FB;
+	
 }
 
 .cv-telechargeable a:hover{
 	color: white;
-	transition: 0.5s;
+	transition: 0.3s;
 }
