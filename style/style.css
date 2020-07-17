@@ -675,7 +675,7 @@ textarea{
 		box-sizing: border-box;
 	}
 
-	/** CSS DU CORPS SITE GÉNÉRAL **/
+	/** CSS DU CORPS SITE GÉNÉRAL MOBILE **/
 
 	html, body {
 		height: 100%;
@@ -738,7 +738,7 @@ textarea{
 		font-weight: 500;
 	}
 
-	/** CSS DE LA BARRE DE NAVIGATION **/
+	/** CSS DE LA BARRE DE NAVIGATION MOBILE **/
 
 	.liste-nav{
 		position: fixed;
@@ -783,43 +783,11 @@ textarea{
 		transition: 0.5s ease;
 	}
 
-	/** CSS DE LA BARRE DES RÉSEAUX SOCIAUX **/ 
-
-	.div-footer{
-		background-color: #f3f3f3;
-		padding-top: 15vh;
-		width: auto;
-		padding-bottom: 35px;
-	}
-
-	footer{
-		position: absolute;
-		bottom: 0px;
-		display : table-row;
-		padding-top: 77px;
-		padding-left: 17px;
-		padding-bottom: 30px;
-	}
+	/** CSS DE LA BARRE DES RÉSEAUX SOCIAUX MOBILE **/ 
 
 	footer li{
-		text-align: center;	
-		padding-right: 1.38vw;
-		font-family: 'Barlow', sans-serif;
-		font-size: 1.1em;
-		color: black;
+		font-size: 1.2em;
 	}
-
-	footer li:hover{
-		text-decoration:  line-through;
-		transition: 0.5s ease;
-	} 
-
-	.social-network{
-		display: flex;
-		text-align: center;
-		padding-left: 6vh;
-	}
-
 
 	/** CCS DE L'INDEX MOBILE **/
 
