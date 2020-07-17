@@ -790,7 +790,7 @@ textarea{
 	/** CSS DU PORTFOLIO MOBILE **/
 
 	.portfolio-section{
-		padding-top: 17vh;
+		padding-top: 16vh;
 		width: 800px;
 		display: block;
 		margin: auto;
@@ -800,7 +800,7 @@ textarea{
 		border: solid black 0.5px;
 		height: 120px;
 		width: 800px;
-		margin-top: 2vh;
+		margin-top: 4vh;
 	}
 
 	.projet .hover-projet{
