@@ -679,7 +679,7 @@ textarea{
 	}
 
 	header{
-		height: 100vh;
+		height: auto;
 	}
 
 	section{
@@ -728,16 +728,18 @@ textarea{
 
 	.liste-nav{
 		right: 3vw;
+		width: auto;
 	}
 
 	.text-block {
 		left: 4vw;
-		font-size: 2em;
+		font-size: 3em;
+		width: auto;
 	}
 	
 	.liste-nav li{
 		padding-right: 0.42vw;
-		font-size: 2em;
+		font-size: 3em;
 	}
 
 	/** CSS DE LA BARRE DES RÉSEAUX SOCIAUX MOBILE **/ 
@@ -752,13 +754,13 @@ textarea{
 	}
 
 	footer li{
-		font-size: 2em;
+		font-size: 3em;
 	}
 
 	.social-network{
 		display: flex;
 		text-align: center;
-		padding-left: 5vh;
+		padding-left: 4vw;
 	}
 
 	/** CCS DE L'INDEX MOBILE **/
@@ -784,4 +786,45 @@ textarea{
 		font-size: 3em;
 		padding-left: 3vw;
 	}
+
+	/** CSS DU PORTFOLIO MOBILE **/
+
+	.portfolio-section{
+		padding-top: 6vh;
+		padding: 3vw;
+	}
+
+	.image-portfolio{
+		border: solid black 0.5px;
+		display: block;
+		height: 75px;
+		width: 500px;
+		margin-top: 3vh;
+	}
+
+	.projet .hover-projet{
+		border: solid black 0.5px;
+		position: absolute;
+		opacity: 1;
+		transition: 0.5s ease;
+		height: 75px;
+		width: 500px;
+		background-color: rgba(4, 20, 44, 0.952);
+	}
+
+	.projet:hover .hover-projet{
+		opacity: 0;
+		width: 10px;
+		transition: 0.5s ease;
+	}
+
+	.text-projet{
+		position: absolute;
+		font-family: 'Barlow', sans-serif;
+		font-size: 1em;
+		bottom: 20px;
+		left: 20px;
+		color: white;
+	}
+
 }
