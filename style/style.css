@@ -741,28 +741,12 @@ textarea{
 	/** CSS DE LA BARRE DE NAVIGATION MOBILE **/
 
 	.liste-nav{
-		position: fixed;
-		z-index: 3;
-		top: 18px;
 		right: 3vw;
-		width: 235px;
-		display: flex;
-		text-align: center;
-		padding: 2px;
-		padding-bottom: 4px;
 	}
 
 	.text-block {
-		z-index: 3;
 		left: 4vw;
-		top: 18px;
-		font-size: 2.5vh;
-		font-family: 'Barlow', sans-serif;
-		width: 130px;
-		text-align: center;
-		margin: 8px;
-		position: fixed;
-		margin-bottom: 10px;
+		font-size: 3.8vw;
 	}
 
 	.text-block p:hover{
@@ -775,7 +759,7 @@ textarea{
 		padding: 6px;
 		padding-right: 0.42vw;
 		font-family: 'Barlow', sans-serif;
-		font-size: 2.5vh;
+		font-size: 3.8vw;
 	}
 
 	.liste-nav li:hover{
@@ -790,12 +774,18 @@ textarea{
 		bottom: 0px;
 		display : table-row;
 		padding-top: 77px;
-		padding-left: 17px;
+		padding-left: 0px;
 		padding-bottom: 30px;
 	}
 
 	footer li{
-		font-size: 2.5vh;
+		font-size: 3.8vw;
+	}
+
+	.social-network{
+		display: flex;
+		text-align: center;
+		padding-left: 5vh;
 	}
 
 	/** CCS DE L'INDEX MOBILE **/
@@ -807,7 +797,7 @@ textarea{
 
 	.h1-index{
 		text-align: center;
-		font-size: 11vh;
+		font-size: 16vw;
 		padding-left: 3vw;
 	}
 
@@ -817,7 +807,7 @@ textarea{
 		font-family: 'Barlow', sans-serif;
 		letter-spacing: 11px;
 		font-weight: 400;
-		font-size: 4vh;
+		font-size: 6vw;
 		padding-left: 3vw;
 	}
 }
