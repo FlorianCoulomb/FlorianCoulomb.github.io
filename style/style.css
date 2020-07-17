@@ -662,17 +662,8 @@ textarea{
 @media screen and (max-width: 1280px)
 {	
 	.pointer{
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%,-50%);
-		width: 30px;
-		height: 30px;
-		background: rgba(255, 255, 255, 0.2);
-		border: 1px solid rgba(255, 255, 255, 0.2);
-		border-radius: 50%;
-		pointer-events: none;
-		box-sizing: border-box;
+		background: rgba(255, 255, 255, 0);
+		border: 1px solid rgba(255, 255, 255, 0);
 	}
 
 	/** CSS DU CORPS SITE GÉNÉRAL MOBILE **/
@@ -683,11 +674,6 @@ textarea{
 	}
 
 	body{
-		background-color: #f3f3f3;
-		margin: 0px;
-		padding: 0px;
-		display : table;
-		position: relative;
 		min-height: 0px;
 		min-width: 0px;
 	}
@@ -724,7 +710,7 @@ textarea{
 	div{
 		margin-left: auto;
 		margin-right: auto;
-		width: 1000px;
+		width: auto;
 		height: auto;
 	}
 
@@ -748,23 +734,10 @@ textarea{
 		left: 4vw;
 		font-size: 3.8vw;
 	}
-
-	.text-block p:hover{
-		text-decoration:  line-through;
-		transition: 0.5s ease;
-	}
-
+	
 	.liste-nav li{
-		text-align: center;
-		padding: 6px;
 		padding-right: 0.42vw;
-		font-family: 'Barlow', sans-serif;
 		font-size: 3.8vw;
-	}
-
-	.liste-nav li:hover{
-		text-decoration:  line-through;
-		transition: 0.5s ease;
 	}
 
 	/** CSS DE LA BARRE DES RÉSEAUX SOCIAUX MOBILE **/ 
@@ -798,7 +771,7 @@ textarea{
 	.h1-index{
 		text-align: center;
 		font-size: 16vw;
-		padding-left: 3vw;
+		padding-left: 4vw;
 	}
 
 	.p-index{
@@ -808,6 +781,6 @@ textarea{
 		letter-spacing: 11px;
 		font-weight: 400;
 		font-size: 6vw;
-		padding-left: 3vw;
+		padding-left: 4vw;
 	}
 }
