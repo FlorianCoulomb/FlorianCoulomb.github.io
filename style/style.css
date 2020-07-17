@@ -732,12 +732,12 @@ textarea{
 
 	.text-block {
 		left: 4vw;
-		font-size: 1.2em;
+		font-size: 2em;
 	}
 	
 	.liste-nav li{
 		padding-right: 0.42vw;
-		font-size: 1.2em;
+		font-size: 2em;
 	}
 
 	/** CSS DE LA BARRE DES RÉSEAUX SOCIAUX MOBILE **/ 
@@ -752,7 +752,7 @@ textarea{
 	}
 
 	footer li{
-		font-size: 1.2em;
+		font-size: 2em;
 	}
 
 	.social-network{
@@ -764,14 +764,15 @@ textarea{
 	/** CCS DE L'INDEX MOBILE **/
 
 	.div-index{
-		margin-top: 50vh;
+		margin-top: 45vh;
 		transform: translateY(-50%);
+		width: auto;
 	}
 
 	.h1-index{
 		text-align: center;
-		font-size: 7em;
-		padding-left: 4vw;
+		font-size: 9em;
+		padding-left: 3vw;
 	}
 
 	.p-index{
@@ -780,7 +781,7 @@ textarea{
 		font-family: 'Barlow', sans-serif;
 		letter-spacing: 11px;
 		font-weight: 400;
-		font-size: 2.5em;
-		padding-left: 4vw;
+		font-size: 3em;
+		padding-left: 3vw;
 	}
 }
