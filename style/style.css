@@ -756,7 +756,7 @@ textarea{
 		z-index: 3;
 		left: 4vw;
 		top: 18px;
-		font-size: 1.2em;
+		font-size: 3.8vw;
 		font-family: 'Barlow', sans-serif;
 		width: 130px;
 		text-align: center;
@@ -775,7 +775,7 @@ textarea{
 		padding: 6px;
 		padding-right: 0.42vw;
 		font-family: 'Barlow', sans-serif;
-		font-size: 1.2em;
+		font-size: 3.8vw;
 	}
 
 	.liste-nav li:hover{
@@ -786,7 +786,7 @@ textarea{
 	/** CSS DE LA BARRE DES RÉSEAUX SOCIAUX MOBILE **/ 
 
 	footer li{
-		font-size: 1.2em;
+		font-size: 3.8vw;
 	}
 
 	/** CCS DE L'INDEX MOBILE **/
@@ -798,7 +798,7 @@ textarea{
 
 	.h1-index{
 		text-align: center;
-		font-size: 5em;
+		font-size: 16vw;
 		padding-left: 3vw;
 	}
 
@@ -808,7 +808,7 @@ textarea{
 		font-family: 'Barlow', sans-serif;
 		letter-spacing: 11px;
 		font-weight: 400;
-		font-size: 1.9em;
+		font-size: 6vw;
 		padding-left: 3vw;
 	}
 }
