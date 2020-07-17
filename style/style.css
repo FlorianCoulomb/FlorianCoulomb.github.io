@@ -732,12 +732,12 @@ textarea{
 
 	.text-block {
 		left: 4vw;
-		font-size: 3.8vw;
+		font-size: 1.2em;
 	}
 	
 	.liste-nav li{
 		padding-right: 0.42vw;
-		font-size: 3.8vw;
+		font-size: 1.2em;
 	}
 
 	/** CSS DE LA BARRE DES RÉSEAUX SOCIAUX MOBILE **/ 
@@ -752,7 +752,7 @@ textarea{
 	}
 
 	footer li{
-		font-size: 3.8vw;
+		font-size: 1.2em;
 	}
 
 	.social-network{
@@ -770,7 +770,7 @@ textarea{
 
 	.h1-index{
 		text-align: center;
-		font-size: 16vw;
+		font-size: 9em;
 		padding-left: 4vw;
 	}
 
@@ -780,7 +780,7 @@ textarea{
 		font-family: 'Barlow', sans-serif;
 		letter-spacing: 11px;
 		font-weight: 400;
-		font-size: 6vw;
+		font-size: 3.5em;
 		padding-left: 4vw;
 	}
 }
