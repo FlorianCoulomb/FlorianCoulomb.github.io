@@ -145,7 +145,7 @@ footer{
 
 footer li{
 	text-align: center;	
-	padding-right: 20px;
+	padding-right: 1.38vw;
 	font-family: 'Barlow', sans-serif;
 	font-size: 1.1em;
 	color: black;
@@ -168,7 +168,7 @@ footer li:hover{
 .div-index{
 	margin-top: 50vh;
 	transform: translateY(-50%);
-	width: 100%;
+	width: 100vw;
 }
 
 .h1-index{
