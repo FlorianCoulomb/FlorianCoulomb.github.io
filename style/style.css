@@ -792,7 +792,7 @@ textarea{
 	.portfolio-section{
 		padding-top: 10vh;
 		padding: 6vw;
-		width: 750px;
+		width: auto;
 		display: block;
 		margin: auto;
 	}
@@ -805,20 +805,20 @@ textarea{
 	}
 
 	.projet .hover-projet{
-		margin: auto;
-		border: solid black 0.5px;
+		margin-top: 15vw;
+		border: none;
 		position: absolute;
 		opacity: 1;
 		transition: 0.5s ease;
-		height: 112.5px;
-		width: 750px;
+		height: 0;
+		width: 60vw;
 		background-color: rgba(4, 20, 44, 0.952);
 	}
 
 	.projet:hover .hover-projet{
-		opacity: 0;
-		width: 10px;
-		transition: 0.5s ease;
+		opacity: 1;
+		width: 60vw;
+		transition: none;
 	}
 
 	.text-projet{
