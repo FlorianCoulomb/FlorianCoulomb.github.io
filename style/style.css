@@ -9,8 +9,8 @@
 	transform: translate(-50%,-50%);
 	width: 30px;
 	height: 30px;
-	background: rgba(255,255,255,.2);
-	border: 1px solid rgba(255,255,255,.2);
+	background: rgba(255, 255, 255, 0.2);
+	border: 1px solid rgba(255, 255, 255, 0.2), 0.2);
 	border-radius: 50%;
 	pointer-events: none;
 	box-sizing: border-box;
@@ -28,7 +28,7 @@ body{
 	margin: 0px;
 	padding: 0px;
 	display : table;
-	width: 100%;
+	width: 100vw;
 	position: relative;
 	min-height: 100%;
 	min-width: 1000px;
@@ -91,9 +91,7 @@ b{
 	display: flex;
 	text-align: center;
 	padding: 2px;
-	padding-left: 57.5vw;
 	padding-bottom: 4px;
-	border-radius: 4px;
 }
 
 .text-block {
@@ -117,6 +115,7 @@ b{
 .liste-nav li{
 	text-align: center;
 	padding: 6px;
+	padding-right: 0.42vw;
 	font-family: 'Barlow', sans-serif;
 	font-size: 1.1em;
 }
