@@ -728,18 +728,18 @@ textarea{
 
 	.liste-nav{
 		right: 4vw;
-		width: auto;
+		width: 450px;
 	}
 
 	.text-block {
 		left: 4vw;
-		font-size: 3em;
+		font-size: 2.5em;
 		width: auto;
 	}
 	
 	.liste-nav li{
 		padding-right: 0.42vw;
-		font-size: 3em;
+		font-size: 2.5em;
 	}
 
 	/** CSS DE LA BARRE DES RÉSEAUX SOCIAUX MOBILE **/ 
@@ -754,7 +754,7 @@ textarea{
 	}
 
 	footer li{
-		font-size: 3em;
+		font-size: 2em;
 	}
 
 	.social-network{
@@ -773,7 +773,7 @@ textarea{
 
 	.h1-index{
 		text-align: center;
-		font-size: 9em;
+		font-size: 8em;
 		padding-left: 3vw;
 	}
 
@@ -790,25 +790,28 @@ textarea{
 	/** CSS DU PORTFOLIO MOBILE **/
 
 	.portfolio-section{
-		padding-top: 6vh;
-		padding: 3vw;
+		padding-top: 10vh;
+		padding: 6vw;
+		width: 750px;
+		display: block;
+		margin: auto;
 	}
 
 	.image-portfolio{
 		border: solid black 0.5px;
-		display: block;
-		height: 75px;
-		width: 500px;
-		margin-top: 3vh;
+		height: auto;
+		width: 100%;
+		margin-top: 2vh;
 	}
 
 	.projet .hover-projet{
+		margin: auto;
 		border: solid black 0.5px;
 		position: absolute;
 		opacity: 1;
 		transition: 0.5s ease;
-		height: 75px;
-		width: 500px;
+		height: 112.5px;
+		width: 750px;
 		background-color: rgba(4, 20, 44, 0.952);
 	}
 
