@@ -10,7 +10,7 @@
 	width: 30px;
 	height: 30px;
 	background: rgba(255, 255, 255, 0.2);
-	border: 1px solid rgba(255, 255, 255, 0.2), 0.2);
+	border: 1px solid rgba(255, 255, 255, 0.2);
 	border-radius: 50%;
 	pointer-events: none;
 	box-sizing: border-box;
@@ -655,4 +655,192 @@ textarea{
 .cv-telechargeable a:hover{
 	color: white;
 	transition: 0.3s;
+}
+
+/** CSS POUR LES FORMATS D'ÉCRAN MOBILE **/
+
+@media screen and (max-width: 1280px)
+{	
+	.pointer{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		width: 30px;
+		height: 30px;
+		background: rgba(255, 255, 255, 0.2);
+		border: 1px solid rgba(255, 255, 255, 0.2);
+		border-radius: 50%;
+		pointer-events: none;
+		box-sizing: border-box;
+	}
+
+	/** CSS DU CORPS SITE GÉNÉRAL **/
+
+	html, body {
+		height: 100%;
+		margin: 0; padding: 0;
+	}
+
+	body{
+		background-color: #f3f3f3;
+		margin: 0px;
+		padding: 0px;
+		display : table;
+		position: relative;
+		min-height: 0px;
+		min-width: 0px;
+	}
+
+	header{
+		height: 100vh;
+	}
+
+	section{
+		background-color: #f3f3f3;
+		padding-top: 15vh;
+	}
+
+	h1{
+		font-size: 3em;
+		font-family: 'Barlow', sans-serif;
+		color: black;
+		font-weight: 500;
+	}
+
+	h3{
+		color: #06B7FB;
+		padding-bottom: 30px;
+		font-family: 'Barlow', sans-serif;
+		font-size: 1.7em;
+		font-weight: 500;
+	}
+
+	a{
+		text-decoration: none;
+		color: black;		
+	}
+
+	div{
+		margin-left: auto;
+		margin-right: auto;
+		width: 1000px;
+		height: auto;
+	}
+
+	p{
+		font-family: 'Barlow', sans-serif;
+		color: black;	
+	}
+
+	b{	
+		color: white;
+		font-weight: 500;
+	}
+
+	/** CSS DE LA BARRE DE NAVIGATION **/
+
+	.liste-nav{
+		position: fixed;
+		z-index: 3;
+		top: 18px;
+		right: 3vw;
+		width: 235px;
+		display: flex;
+		text-align: center;
+		padding: 2px;
+		padding-bottom: 4px;
+	}
+
+	.text-block {
+		z-index: 3;
+		left: 4vw;
+		top: 18px;
+		font-size: 1.2em;
+		font-family: 'Barlow', sans-serif;
+		width: 130px;
+		text-align: center;
+		margin: 8px;
+		position: fixed;
+		margin-bottom: 10px;
+	}
+
+	.text-block p:hover{
+		text-decoration:  line-through;
+		transition: 0.5s ease;
+	}
+
+	.liste-nav li{
+		text-align: center;
+		padding: 6px;
+		padding-right: 0.42vw;
+		font-family: 'Barlow', sans-serif;
+		font-size: 1.2em;
+	}
+
+	.liste-nav li:hover{
+		text-decoration:  line-through;
+		transition: 0.5s ease;
+	}
+
+	/** CSS DE LA BARRE DES RÉSEAUX SOCIAUX **/ 
+
+	.div-footer{
+		background-color: #f3f3f3;
+		padding-top: 15vh;
+		width: auto;
+		padding-bottom: 35px;
+	}
+
+	footer{
+		position: absolute;
+		bottom: 0px;
+		display : table-row;
+		padding-top: 77px;
+		padding-left: 17px;
+		padding-bottom: 30px;
+	}
+
+	footer li{
+		text-align: center;	
+		padding-right: 1.38vw;
+		font-family: 'Barlow', sans-serif;
+		font-size: 1.1em;
+		color: black;
+	}
+
+	footer li:hover{
+		text-decoration:  line-through;
+		transition: 0.5s ease;
+	} 
+
+	.social-network{
+		display: flex;
+		text-align: center;
+		padding-left: 6vh;
+	}
+
+
+	/** CCS DE L'INDEX MOBILE **/
+
+	.div-index{
+		margin-top: 50vh;
+		transform: translateY(-50%);
+	}
+
+	.h1-index{
+		text-align: center;
+		font-size: 5em;
+		padding-left: 3vw;
+	}
+
+	.p-index{
+		margin-top: 4px;
+		text-align: center;
+		font-family: 'Barlow', sans-serif;
+		letter-spacing: 11px;
+		font-weight: 400;
+		font-size: 1.9em;
+		padding-left: 3vw;
+	}
 }
