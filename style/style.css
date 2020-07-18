@@ -847,8 +847,8 @@ textarea{
 
 	.slider-container{
 		margin-top: 70px;
-		height: 562px;
-		width: 1000px;
+		height: 421.5px;
+		width: 750px;
 		margin-left: auto;
 		margin-right: auto;
 		overflow: hidden;
@@ -856,9 +856,9 @@ textarea{
 	}
 
 	.image-container{
-		height: 562px;
+		height: 421.5px;
 		z-index: 1;
-		width: 6000px;
+		width: 4500px;
 		position: relative;
 		transition: left 2s;
 		-webkit-transition: left 2s;
@@ -867,8 +867,10 @@ textarea{
 	}
 
 	.slider-image{
-		height: 562px;
-		width: 1000px;
+		display: block;
+		margin: auto;
+		height: 421.5px;
+		width: 750px;
 		float: left;
 		padding: 0px;
 		margin: 0px;
@@ -876,16 +878,16 @@ textarea{
 
 	.button-container{
 		z-index: 1;
-		top: -30px;
+		top: -45px;
 		position: relative;
 	}
 
 	.slider-button{
 		display: inline-block;
-		height: 13px;
-		width: 13px;
-		margin-left: 3px;
-		border-radius: 7px;
+		height: 26px;
+		width: 26px;
+		margin-left: 7px;
+		border-radius: 14px;
 		background-color: #212121;
 	}
 
@@ -894,27 +896,27 @@ textarea{
 	}
 
 	#slider-image-2:target ~ .image-container{
-		left: -1000px;
+		left: -750px;
 	}
 
 	#slider-image-3:target ~ .image-container{
-		left: -2000px;
+		left: -1500px;
 	}
 
 	#slider-image-4:target ~ .image-container{
-		left: -3000px;
+		left: -2250px;
 	}
 
 	#slider-image-5:target ~ .image-container{
-		left: -4000px;
+		left: -3000px;
 	}
 
 	#slider-image-6:target ~ .image-container{
-		left: -5000px;
+		left: -3750px;
 	}
 
 	.div1-section-projet{
-		width: 1000px;
+		width: 750px;
 	}
 
 	.h1-projet{
@@ -934,13 +936,13 @@ textarea{
 
 	.div2-section-projet{
 		padding-top: 70px;
-		width: 1000px;
+		width: auto;
 		margin-right: auto;
 		margin-left: auto;
 	}
 
 	.p-projet{
-		width: 700px;
+		width: 65vw;
 		font-family: 'Barlow', sans-serif;
 		margin: auto;
 		font-size: 1.2em;
