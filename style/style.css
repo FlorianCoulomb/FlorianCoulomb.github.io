@@ -679,7 +679,8 @@ textarea{
 	}
 
 	header{
-		height: auto;
+		height: 100vh;
+		width: auto;
 	}
 
 	section{
@@ -790,7 +791,7 @@ textarea{
 	/** CSS DU PORTFOLIO MOBILE **/
 
 	.portfolio-section{
-		padding-top: 16vh;
+		padding-top: 13vh;
 		width: 800px;
 		display: block;
 		margin: auto;
@@ -827,6 +828,154 @@ textarea{
 		bottom: 20px;
 		left: 20px;
 		color: white;
+	}
+
+	/** CSS DES PROJETS **/
+
+	.image1-projet{
+		height: 100%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	/** CSS DU SLIDER **/
+
+	.slider-span{
+		display: none;
+	}
+
+	.slider-container{
+		margin-top: 70px;
+		height: 562px;
+		width: 1000px;
+		margin-left: auto;
+		margin-right: auto;
+		overflow: hidden;
+		text-align: center;
+	}
+
+	.image-container{
+		height: 562px;
+		z-index: 1;
+		width: 6000px;
+		position: relative;
+		transition: left 2s;
+		-webkit-transition: left 2s;
+		-moz-transition: left 2s;
+		-o-transition: left 2s;
+	}
+
+	.slider-image{
+		height: 562px;
+		width: 1000px;
+		float: left;
+		padding: 0px;
+		margin: 0px;
+	}
+
+	.button-container{
+		z-index: 1;
+		top: -30px;
+		position: relative;
+	}
+
+	.slider-button{
+		display: inline-block;
+		height: 13px;
+		width: 13px;
+		margin-left: 3px;
+		border-radius: 7px;
+		background-color: #212121;
+	}
+
+	#slider-image-1:target ~ .image-container{
+		left: 0px;
+	}
+
+	#slider-image-2:target ~ .image-container{
+		left: -1000px;
+	}
+
+	#slider-image-3:target ~ .image-container{
+		left: -2000px;
+	}
+
+	#slider-image-4:target ~ .image-container{
+		left: -3000px;
+	}
+
+	#slider-image-5:target ~ .image-container{
+		left: -4000px;
+	}
+
+	#slider-image-6:target ~ .image-container{
+		left: -5000px;
+	}
+
+	.div1-section-projet{
+		width: 1000px;
+	}
+
+	.h1-projet{
+		text-align: center;
+	}
+
+	.h2-projet{
+		letter-spacing: 11px;
+		font-weight: 400;
+		margin-top: 20px;
+		padding: 0px;
+		text-align: center;
+		font-size: 1.5em;
+		color: black;
+		font-family: 'Barlow', sans-serif;
+	}
+
+	.div2-section-projet{
+		padding-top: 70px;
+		width: 1000px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.p-projet{
+		width: 700px;
+		font-family: 'Barlow', sans-serif;
+		margin: auto;
+		font-size: 1.2em;
+		font-weight: 300;
+		line-height: 1.7;
+	}
+
+	.image2-projet{
+		display: block;
+		margin-top: 70px;
+		width: 750px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.div-hover-projets{
+		position: absolute;
+		margin-left: auto;
+		margin-right: auto;
+		width: 1000px;
+		height: auto;
+	}
+
+	.image2-projet-hover{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 70px;
+		opacity: 0;
+		width: 750px;
+	}
+
+	.image2-projet-hover:hover{
+		opacity: 1;
+		transition: 0.5s;
 	}
 
 }
