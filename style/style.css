@@ -847,8 +847,8 @@ textarea{
 
 	.slider-container{
 		margin-top: 70px;
-		height: 421.5px;
-		width: 750px;
+		height: 42.15vw;
+		width: 75vw;
 		margin-left: auto;
 		margin-right: auto;
 		overflow: hidden;
@@ -856,9 +856,9 @@ textarea{
 	}
 
 	.image-container{
-		height: 421.5px;
+		height: 42.15vw;
 		z-index: 1;
-		width: 4500px;
+		width: 450vw;
 		position: relative;
 		transition: left 2s;
 		-webkit-transition: left 2s;
@@ -869,8 +869,8 @@ textarea{
 	.slider-image{
 		display: block;
 		margin: auto;
-		height: 421.5px;
-		width: 750px;
+		height: 42.15vw;
+		width: 75vw;
 		float: left;
 		padding: 0px;
 		margin: 0px;
@@ -884,8 +884,8 @@ textarea{
 
 	.slider-button{
 		display: inline-block;
-		height: 26px;
-		width: 26px;
+		height: 4vw;
+		width: 4vw;
 		margin-left: 7px;
 		border-radius: 14px;
 		background-color: #212121;
@@ -896,34 +896,36 @@ textarea{
 	}
 
 	#slider-image-2:target ~ .image-container{
-		left: -750px;
+		left: -75vw;
 	}
 
 	#slider-image-3:target ~ .image-container{
-		left: -1500px;
+		left: -150vw;
 	}
 
 	#slider-image-4:target ~ .image-container{
-		left: -2250px;
+		left: -225vw;
 	}
 
 	#slider-image-5:target ~ .image-container{
-		left: -3000px;
+		left: -300vw;
 	}
 
 	#slider-image-6:target ~ .image-container{
-		left: -3750px;
+		left: -375vw;
 	}
 
 	.div1-section-projet{
-		width: 750px;
+		width: 75vw;
 	}
 
 	.h1-projet{
 		text-align: center;
+		width: auto;
 	}
 
 	.h2-projet{
+		width: auto;
 		letter-spacing: 11px;
 		font-weight: 400;
 		margin-top: 20px;
@@ -953,7 +955,7 @@ textarea{
 	.image2-projet{
 		display: block;
 		margin-top: 70px;
-		width: 750px;
+		width: 75vw;
 		margin-left: auto;
 		margin-right: auto;
 	}
@@ -962,7 +964,7 @@ textarea{
 		position: absolute;
 		margin-left: auto;
 		margin-right: auto;
-		width: 1000px;
+		width: 75vw;
 		height: auto;
 	}
 
@@ -972,7 +974,7 @@ textarea{
 		margin-right: auto;
 		margin-top: 70px;
 		opacity: 0;
-		width: 750px;
+		width: 75vw;
 	}
 
 	.image2-projet-hover:hover{
