@@ -102,7 +102,7 @@ b{
 	font-family: 'Barlow', sans-serif;
 	width: 130px;
 	text-align: center;
-	padding: 8px;
+	margin: 8px;
 	position: fixed;
 	margin-bottom: 10px;
 }
@@ -811,6 +811,7 @@ textarea{
 		display: flex;
 		text-align: center;
 		padding-left: 4vw;
+		width: 100vw;
 	}
 
 	/** CCS DE L'INDEX MOBILE **/
@@ -897,9 +898,6 @@ textarea{
 
 	.information-client{
 		padding-top: 50px;
-		color: white;
-		font-family: 'Barlow', sans-serif;
-		font-size: 1.2em;
 		width: 100vw;
 		text-align: center;
 	}
