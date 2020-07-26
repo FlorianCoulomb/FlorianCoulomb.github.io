@@ -779,7 +779,8 @@ textarea{
 		left: 4vw;
 		font-size: 2.5em;
 		width: auto;
-		padding: 1vh;
+		padding-top: 0.7vh;
+		padding-bottom: 0.9vw;
 	}
 
 	.text-block p{
@@ -808,6 +809,7 @@ textarea{
 	footer li{
 		font-size: 2.5em;
 		color: #fff;
+		padding-right: 3vw;
 	}
 
 	.social-network{
