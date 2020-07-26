@@ -760,6 +760,13 @@ textarea{
 
 	/** CSS DE LA BARRE DE NAVIGATION MOBILE **/
 
+	nav{
+		position: fixed;
+		background-color: #161616;
+		width: 100vw;
+		height: 10vh;
+	}
+
 	.liste-nav{
 		right: 4vw;
 		width: 450px;
@@ -770,10 +777,15 @@ textarea{
 		font-size: 2.5em;
 		width: auto;
 	}
+
+	.text-block p{
+		color: white;
+	}
 	
 	.liste-nav li{
 		padding-right: 0.42vw;
 		font-size: 2.5em;
+		color: white;
 	}
 
 	/** CSS DE LA BARRE DES RÉSEAUX SOCIAUX MOBILE **/ 
@@ -782,13 +794,16 @@ textarea{
 		position: absolute;
 		bottom: 0px;
 		display : table-row;
-		padding-top: 77px;
+		padding-top: 1.4vh;
 		padding-left: 0px;
 		padding-bottom: 30px;
+		background-color: #161616;
+		width: 100vw;
 	}
 
 	footer li{
 		font-size: 2.5em;
+		color: #fff;
 	}
 
 	.social-network{
