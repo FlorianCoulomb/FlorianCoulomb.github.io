@@ -824,36 +824,22 @@ textarea{
 	/** CSS DU ABOUT MOBILE **/
 
 	.section-about{
-		display: flex;
-		background-color: #04142c;
-		width: auto;
-		padding-top: 0;
+		display: block;
 	}
 
 	.section-info-about{
-		background-color: #00000000;
-		padding-left: 50px; 
-		margin-right: auto;
-		margin-top: 15px;
-		border-radius: 4px;
-		padding-bottom: 20px;
-		width: auto;
+		padding-left: 0;
+		margin-top: 0px;
+		width: 100vw;
 	}
 
 	.section-image-about{
-		background-color: #04142c;
-		margin-left: auto;
-		width: auto;
-		display: block;
-		margin-top: 15px;
+		margin-top: 0;
 
 	}
 
 	#h1-about {
-		padding-top: 0;
-		background-color: #00000000;
 		text-align: center;
-		margin-bottom: 0;
 	}
 
 	#h1-about h1{
@@ -862,22 +848,23 @@ textarea{
 	}
 
 	.image-about{
-		width: 35vw;
+		width: 100vw;
 	}
 
 	.information-perso{
 		padding-top: 50px;
 		background-color: #04142c;
-		width: auto;
+		width: 100vw;
 	}
 
 	.paragraphe-perso{
 		color: white;
-		width: 30vw;
+		width: 90vw;
 		font-family: 'Barlow', sans-serif;
 		font-size: 1.2em;
-		word-spacing: 1.4px;
+		word-spacing: 1px;
 		text-align: justify;
+		margin: auto;
 	}
 
 	.information-client{
@@ -885,7 +872,8 @@ textarea{
 		color: white;
 		font-family: 'Barlow', sans-serif;
 		font-size: 1.2em;
-		width: auto;
+		width: 100vw;
+		text-align: center;
 	}
 
 
@@ -931,7 +919,7 @@ textarea{
 		color: white;
 	}
 
-	/** CSS DES PROJETS **/
+	/** CSS DES PROJETS MOBILE **/
 
 	.image1-projet{
 		height: 100%;
@@ -940,7 +928,7 @@ textarea{
 		margin-right: auto;
 	}
 
-	/** CSS DU SLIDER **/
+	/** CSS DU SLIDER MOBILE **/
 
 	.slider-span{
 		display: none;
