@@ -838,32 +838,44 @@ textarea{
 
 	/** CSS DU ABOUT MOBILE **/
 
+	.div-footer-cv{
+		background-color: #04142c;
+	}
+
 	.section-about{
 		display: block;
+		background-color: #04142c00;
 	}
 
 	.section-info-about{
 		padding-left: 0;
-		margin-top: 0px;
+		margin-top: 100vh;
 		width: 100vw;
+		background-color: #04142c;
+		padding-top: 7vh;
+		padding-bottom: 0;
 	}
 
 	.section-image-about{
+		margin-left: auto;
+		width: 0;
+		display: block;
 		margin-top: 0;
-
 	}
 
 	#h1-about {
 		text-align: center;
+		padding-top: 0%;
 	}
 
 	#h1-about h1{
+		padding-top: 0;
 		color: white;
 		padding-left: 0vw;
 	}
 
 	.image-about{
-		width: 100vw;
+		width: 0vw;
 	}
 
 	.information-perso{
