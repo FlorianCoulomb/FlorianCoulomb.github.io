@@ -762,11 +762,11 @@ textarea{
 
 	nav{
 		position: fixed;
-		background-color: #161616;
+		background-color: rgba(22, 22, 22, 0.884);
 		width: 100vw;
 		height: 5vh;
 	}
-
+	
 	.liste-nav{
 		right: 4vw;
 		width: 450px;
@@ -797,7 +797,7 @@ textarea{
 		padding-top: 1.4vh;
 		padding-left: 0px;
 		padding-bottom: 30px;
-		background-color: #161616;
+		background-color: rgba(22, 22, 22, 0.884);
 		width: 100vw;
 	}
 
