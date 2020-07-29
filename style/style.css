@@ -107,6 +107,10 @@ b{
 	margin-bottom: 10px;
 }
 
+.text-block-mobile{
+	display: none;
+}
+
 .text-block p:hover{
 	text-decoration:  line-through;
 	transition: 0.5s ease;
@@ -563,6 +567,7 @@ textarea{
     border-radius: 4px;
   	cursor: pointer;
 }
+
 .orange:hover {
     background-color: grey;
     border-color: black;
@@ -767,11 +772,11 @@ textarea{
 	}
 
 	.text-block-mobile{
+		display: inherit;
 		text-transform: uppercase;
 		z-index: 4;
 		left: 4vw;
 		font-size: 4em;
-		width: auto;
 		top: 2.5vh;
 		font-family: 'Barlow', sans-serif;
 		padding: 8px;
@@ -896,6 +901,7 @@ textarea{
 		padding-top: 50px;
 		background-color: #04142c;
 		width: 100vw;
+		height: 100vh;
 	}
 
 	.paragraphe-perso{
@@ -1171,7 +1177,7 @@ textarea{
 		padding-top: 0.5vh;
 		padding-bottom: 0.5vh;
 		margin-top: 2vh;
-		width: 50vw;
+		width: 75vw;
 		font-family: 'Barlow', sans-serif;
 		color: black;
 		background-color: white;
@@ -1181,7 +1187,7 @@ textarea{
 
 	.form-group-mobile a{
 		color: black;
-		font-size: 2.5em;
+		font-size: 4em;
 		font-weight: 500;
 	}
 
@@ -1190,13 +1196,14 @@ textarea{
 	}
 
 	.questionnaire-mobile p{
-		font-size: 1.5em;
+		font-size: 2em;
 		color: white;
 	}
 
 	.form-group-mobile p{
 		color: black;
-		font-size: 1.5em;
+		font-size: 3em;
+		font-weight: 500;
 	}
 
 	.form-control, .form-control-message{
@@ -1208,7 +1215,7 @@ textarea{
 		background-color: rgb(27, 27, 27);
 		border: 1px solid rgba(0,0,0,0.15);
 		border-radius: 4px;
-		width: 50vw;
+		width: 75vw;
 		border-color: #fff;
 		color: white;
 		margin-left: auto;
@@ -1217,7 +1224,7 @@ textarea{
 	}
 
 	.form-control-message{
-		height: 10vh;
+		height: 12vh;
 	}
 
 	.background-formulaire-mobile{
@@ -1236,7 +1243,7 @@ textarea{
 	.titre-menu-mobile{
 		padding-bottom: 20px;
 		padding-top: 5vh;
-		font-size: 8em;	
+		font-size: 10em;	
 		font-family: 'Barlow', sans-serif;
 		color: white;
 	}
@@ -1245,11 +1252,6 @@ textarea{
 		text-align: center;
 		padding-top: 20px;
 		padding-bottom: 20px;
-	}
-
-	.mail{
-		font-size: 3em;
-		font-weight: 500;
 	}
 
 	.titre-reseaux-mobile{
@@ -1265,8 +1267,8 @@ textarea{
 		font-family: 'Barlow', sans-serif;
 		margin: auto;
 		display: flex;
-		font-size: 1.9em;
-		padding-top: 6vh;
+		font-size: 3em;
+		padding-top: 10vh;
 		position: absolute;
 		bottom: 0;
 		padding-bottom: 3vh;
@@ -1284,5 +1286,18 @@ textarea{
 
 	.social-network-mobile a:hover{
 		text-decoration: line-through;
+	}
+
+	.orange {
+		font-family: 'Barlow', sans-serif;
+		background-color: white;
+		border-color: grey;
+		color: black;
+		padding: .5rem 2em;
+		font-size: 2em;
+		line-height: 1.5;
+		border-radius: 4px;
+		cursor: pointer;
+		width: 75vw;
 	}
 }
