@@ -449,6 +449,10 @@ footer li:hover{
 
 /** CSS DU CONTACT **/
 
+.toggle-form-mobile{
+	display: none;
+}
+
 .icon-close {
 	transition: right .6s ease-in-out;
 	cursor: pointer;
@@ -772,7 +776,7 @@ textarea{
 	}
 
 	.text-block-mobile{
-		display: inherit;
+		display: block;
 		text-transform: uppercase;
 		z-index: 4;
 		left: 4vw;
@@ -1148,6 +1152,7 @@ textarea{
 	}
 
 	.toggle-form-mobile{
+		display: block;
 		background-color: rgba(0, 0, 0, 0);
 		padding-right: 0vh;
 		padding-left: 0vh; 
