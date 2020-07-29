@@ -1160,7 +1160,7 @@ textarea{
 		left: -9999px;
 		position: fixed;
 		top: 0;
-		width: 100vw;
+		width: 50vw;
 		height: 100%;
 		z-index: 9999;
 		transition: left 0.5s ease-in-out;
@@ -1173,7 +1173,7 @@ textarea{
 
 	.formwrapmobile{
 		background-color: #04142cf5;
-		width: 100vw;
+		width: 50vw;
 		height: 100%;
 		float: left;
 	}
@@ -1182,7 +1182,7 @@ textarea{
 		padding-top: 0.5vh;
 		padding-bottom: 0.5vh;
 		margin-top: 2vh;
-		width: 75vw;
+		width: 40vw;
 		font-family: 'Barlow', sans-serif;
 		color: black;
 		background-color: white;
@@ -1192,7 +1192,7 @@ textarea{
 
 	.form-group-mobile a{
 		color: black;
-		font-size: 2.5em;
+		font-size: 3em;
 	}
 
 	.form-group-mobile a:hover{
@@ -1218,7 +1218,7 @@ textarea{
 		background-color: rgb(27, 27, 27);
 		border: 1px solid rgba(0,0,0,0.15);
 		border-radius: 4px;
-		width: 75vw;
+		width: 40vw;
 		border-color: #fff;
 		color: white;
 		margin-left: auto;
@@ -1262,7 +1262,7 @@ textarea{
 		font-family: 'Barlow', sans-serif;
 		margin: auto;
 		display: flex;
-		font-size: 2.6em;
+		font-size: 2em;
 		padding-top: 10vh;
 		position: absolute;
 		bottom: 0;
@@ -1292,6 +1292,6 @@ textarea{
 		line-height: 1.5;
 		border-radius: 4px;
 		cursor: pointer;
-		width: 75vw;
+		width: 40vw;
 	}
 }
