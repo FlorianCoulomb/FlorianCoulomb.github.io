@@ -1149,6 +1149,7 @@ textarea{
 		height: 100%;
 		z-index: 9999;
 		transition: left 0.5s ease-in-out;
+		display: block;
 	}
 
 	.toggle-form-mobile.active {
@@ -1156,24 +1157,22 @@ textarea{
 	}
 
 	.formwrapmobile{
-		background-color: #04142cc9;
-		width: auto;
+		background-color: #04142c;
+		width: 50vw;
 		height: 100%;
 		float: left;
 	}
 
 	.form-group-mobile{
-		display: block;
 		padding-top: 0.5vh;
 		padding-bottom: 0.5vh;
 		margin-top: 2vh;
-		margin-left: auto;
-		margin-right: auto;
-		text-align: center;
-		width: 50vw;
+		width: 40vw;
 		font-family: 'Barlow', sans-serif;
 		color: black;
 		background-color: white;
+		display: block;
+		text-align: center;
 	}
 
 	.form-group-mobile a{
@@ -1185,9 +1184,9 @@ textarea{
 		text-decoration:  line-through;
 	}
 
-	.form-group-mobile p{
-		font-size: 0.5em;
-		color: black;
+	.questionnaire-mobile p, .form-group-mobile p{
+		font-size: 1.5em;
+		color: white;
 	}
 
 	.form-control, .form-control-message{
@@ -1221,12 +1220,13 @@ textarea{
 
 	.questionnaire-mobile{
 		padding-top: 6vh;
+		text-align: center;
 	}
 
 	.titre-menu-mobile{
 		padding-bottom: 20px;
 		padding-top: 5vh;
-		font-size: 4em;	
+		font-size: 8em;	
 		font-family: 'Barlow', sans-serif;
 		color: white;
 	}
@@ -1237,4 +1237,7 @@ textarea{
 		padding-bottom: 20px;
 	}
 
+	.mail{
+		font-size: 2.5em;
+	}
 }
