@@ -1259,5 +1259,6 @@ textarea{
 		width: auto;
 		margin: auto;
 		padding-right: 1vh;
+		display: flex;
 	}
 }
