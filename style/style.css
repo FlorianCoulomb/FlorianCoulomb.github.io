@@ -1146,7 +1146,6 @@ textarea{
 		position: fixed;
 		top: 0;
 		width: 50vw;
-		height: 100%;
 		z-index: 9999;
 		transition: left 0.5s ease-in-out;
 		display: block;
@@ -1159,7 +1158,6 @@ textarea{
 	.formwrapmobile{
 		background-color: #04142c;
 		width: 50vw;
-		height: 100%;
 		float: left;
 	}
 
@@ -1184,9 +1182,14 @@ textarea{
 		text-decoration:  line-through;
 	}
 
-	.questionnaire-mobile p, .form-group-mobile p{
+	.questionnaire-mobile p{
 		font-size: 1.5em;
 		color: white;
+	}
+
+	.form-group-mobile p{
+		color: black;
+		font-size: 1.5em;
 	}
 
 	.form-control, .form-control-message{
