@@ -760,25 +760,34 @@ textarea{
 
 	/** CSS DE LA BARRE DE NAVIGATION MOBILE **/
 
-	nav{
-		position: fixed;
-		background-color: rgba(22, 22, 22, 0.884);
-		width: 100vw;
-		height: 5vh;
-	}
-
 	.liste-nav{
+		display: none;
 		right: 4vw;
 		width: 450px;
 	}
 
-	.text-block {
+	.text-block-mobile{
+		z-index: 4;
+		left: 4vw;
+		font-size: 4em;
+		width: auto;
+		top: 18px;
+		font-family: 'Barlow', sans-serif;
+		padding: 8px;
+		position: fixed;
+		margin-bottom: 10px;
+		text-align: center;
+		background-color: #04142cde;
+	}
+
+	.text-block{
+		display: none;
 		left: 4vw;
 		font-size: 2.5em;
 		width: auto;
 	}
 
-	.text-block p{
+	.text-block p, .text-block-mobile p{
 		color: white;
 	}
 	
@@ -791,17 +800,18 @@ textarea{
 	/** CSS DE LA BARRE DES RÉSEAUX SOCIAUX MOBILE **/ 
 
 	footer{
+		opacity: 0;
 		position: absolute;
 		bottom: 0px;
 		display : table-row;
 		padding-top: 1.4vh;
 		padding-left: 0px;
 		padding-bottom: 30px;
-		background-color: rgba(22, 22, 22, 0.884);
 		width: 100vw;
 	}
 
 	footer li{
+		display: none;
 		font-size: 2.5em;
 		color: #fff;
 		padding-right: 3vw;
@@ -1094,6 +1104,139 @@ textarea{
 	.image2-projet-hover:hover{
 		opacity: 1;
 		transition: 0.5s;
+	}
+
+	/** CSS DU CONTACT MOBILE **/
+
+	.toggle-form{
+		display: none;
+	}
+
+	.icon-close{
+		transition: left .6s ease-in-out;
+		cursor: pointer;
+	}
+
+	.toggle-form-mobile .formwrapmobile img {
+		position: absolute;
+		width: 4vw;
+		padding-top: 2vw;
+		padding-right: 2vw;
+		right: 0;
+	}
+
+	.toggle-form-mobile a{
+		color: #fff;
+		text-align: center;
+		margin-bottom: 10px;
+
+	}
+	.texte-formulaire-mobile{
+		padding-bottom: 10px;
+		color: #fff;
+		font-family: 'Barlow', sans-serif;
+	}
+
+	.toggle-form-mobile{
+		background-color: rgba(0, 0, 0, 0);
+		padding-right: 0vh;
+		padding-left: 0vh; 
+		padding-top: 0px;
+		left: -9999px;
+		position: fixed;
+		top: 0;
+		width: 50vw;
+		height: 100%;
+		z-index: 9999;
+		transition: left 0.5s ease-in-out;
+	}
+
+	.toggle-form-mobile.active {
+		left: 0;
+	}
+
+	.formwrapmobile{
+		background-color: #04142cc9;
+		width: auto;
+		height: 100%;
+		float: left;
+	}
+
+	.form-group-mobile{
+		display: block;
+		padding-top: 0.5vh;
+		padding-bottom: 0.5vh;
+
+		margin-top: 4vh;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		width: 50vw;
+		font-family: 'Barlow', sans-serif;
+		color: black;
+		font-size: 3em;
+		background-color: white;
+	}
+
+	.form-group-mobile a{
+		color: black;
+	}
+
+	.form-group-mobile a:hover{
+		text-decoration:  line-through;
+	}
+
+	.form-group-mobile p{
+		font-size: 0.5em;
+		color: black;
+	}
+
+	.background-formulaire-mobile{
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 3vh;
+		width: auto;
+	}
+
+	.titre-menu-mobile{
+		padding-bottom: 20px;
+		padding-top: 5vh;
+		font-size: 4em;	
+		font-family: 'Barlow', sans-serif;
+		color: white;
+	}
+
+	.soumettre{
+		text-align: center;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	.orange {
+		font-family: 'Barlow', sans-serif;
+		background-color: white;
+		border-color: grey;
+		color: black;
+		padding: .5rem 2em;
+		font-size: 1em;
+		line-height: 1.5;
+		border-radius: 4px;
+		cursor: pointer;
+	}
+	.orange:hover {
+		background-color: grey;
+		border-color: black;
+		color: black;
+	}
+
+	.texte-probleme{
+		font-family: 'Barlow', sans-serif;
+		color: white;
+	}
+
+	.protectionspam{
+		display: none;
 	}
 
 }
