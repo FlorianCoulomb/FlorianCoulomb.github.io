@@ -107,10 +107,6 @@ b{
 	margin-bottom: 10px;
 }
 
-.text-block-mobile{
-	display: none;
-}
-
 .text-block p:hover{
 	text-decoration:  line-through;
 	transition: 0.5s ease;
@@ -449,10 +445,6 @@ footer li:hover{
 
 /** CSS DU CONTACT **/
 
-.toggle-form-mobile{
-	display: none;
-}
-
 .icon-close {
 	transition: right .6s ease-in-out;
 	cursor: pointer;
@@ -769,36 +761,26 @@ textarea{
 
 	/** CSS DE LA BARRE DE NAVIGATION MOBILE **/
 
+	nav{
+		position: fixed;
+		background-color: #212121ec;
+		height: 5vh;
+		width: 100vw;
+		z-index: 3;
+	}
+
 	.liste-nav{
-		display: none;
 		right: 4vw;
 		width: 450px;
 	}
 
-	.text-block-mobile{
-		display: block;
-		text-transform: uppercase;
-		z-index: 4;
-		left: 4vw;
-		font-size: 4em;
-		top: 2.5vh;
-		font-family: 'Barlow', sans-serif;
-		padding: 8px;
-		padding-bottom: 10px;
-		position: fixed;
-		margin-bottom: 10px;
-		text-align: center;
-		background-color: #04142cde;
-	}
-
 	.text-block{
-		display: none;
 		left: 4vw;
 		font-size: 2.5em;
 		width: auto;
 	}
 
-	.text-block p, .text-block-mobile p{
+	.text-block p{
 		color: white;
 	}
 	
@@ -811,7 +793,7 @@ textarea{
 	/** CSS DE LA BARRE DES RÉSEAUX SOCIAUX MOBILE **/ 
 
 	footer{
-		opacity: 0;
+		background-color: #212121ec;
 		position: absolute;
 		bottom: 0px;
 		display : table-row;
@@ -822,7 +804,6 @@ textarea{
 	}
 
 	footer li{
-		display: none;
 		font-size: 2.5em;
 		color: #fff;
 		padding-right: 3vw;
@@ -1119,179 +1100,4 @@ textarea{
 		transition: 0.5s;
 	}
 
-	/** CSS DU CONTACT MOBILE **/
-
-	.toggle-form{
-		display: none;
-	}
-
-	.icon-close{
-		transition: left .6s ease-in-out;
-		cursor: pointer;
-	}
-
-	.toggle-form-mobile .formwrapmobile img {
-		position: absolute;
-		width: 4vw;
-		padding-top: 2vw;
-		padding-right: 2vw;
-		right: 0;
-	}
-
-	.toggle-form-mobile a{
-		color: #fff;
-		text-align: center;
-		margin-bottom: 10px;
-
-	}
-	.texte-formulaire-mobile{
-		padding-bottom: 10px;
-		color: #fff;
-		font-family: 'Barlow', sans-serif;
-		padding-top: 10px;
-	}
-
-	.toggle-form-mobile{
-		display: block;
-		background-color: rgba(0, 0, 0, 0);
-		padding-right: 0vh;
-		padding-left: 0vh; 
-		padding-top: 0px;
-		left: -9999px;
-		position: fixed;
-		top: 0;
-		width: 50vw;
-		height: 100%;
-		z-index: 9999;
-		transition: left 0.5s ease-in-out;
-		display: block;
-	}
-
-	.toggle-form-mobile.active {
-		left: 0;
-	}
-
-	.formwrapmobile{
-		background-color: #04142cf5;
-		width: 50vw;
-		height: 100%;
-		float: left;
-	}
-
-	.form-group-mobile{
-		padding-top: 0.5vh;
-		padding-bottom: 0.5vh;
-		margin-top: 2vh;
-		width: 40vw;
-		font-family: 'Barlow', sans-serif;
-		color: black;
-		background-color: white;
-		display: block;
-		text-align: center;
-	}
-
-	.form-group-mobile a{
-		color: black;
-		font-size: 3em;
-	}
-
-	.form-group-mobile a:hover{
-		text-decoration:  line-through;
-	}
-
-	.questionnaire-mobile p{
-		font-size: 2em;
-		color: white;
-	}
-
-	.form-group-mobile p{
-		color: black;
-		font-size: 2.5em;
-	}
-
-	.form-control, .form-control-message{
-		display: block;
-		padding: 0.5em 0.5em;
-		font-size: 1.5em;
-		line-height: 1.25;
-		color: #495057;
-		background-color: rgb(27, 27, 27);
-		border: 1px solid rgba(0,0,0,0.15);
-		border-radius: 4px;
-		width: 40vw;
-		border-color: #fff;
-		color: white;
-		margin-left: auto;
-		margin-right: auto;
-		box-sizing: border-box;
-	}
-
-	.form-control-message{
-		height: 10vh;
-	}
-
-	.background-formulaire-mobile{
-		text-align: center;
-		margin-left: auto;
-		margin-right: auto;
-		margin-top: 3vh;
-		width: auto;
-	}
-
-	.questionnaire-mobile{
-		padding-top: 3vh;
-		text-align: center;
-	}
-
-	.titre-menu-mobile{
-		padding-bottom: 20px;
-		padding-top: 5vh;
-		font-size: 10em;	
-		font-family: 'Barlow', sans-serif;
-		color: white;
-	}
-
-	.soumettre{
-		text-align: center;
-		padding-top: 20px;
-		padding-bottom: 20px;
-	}
-
-	.social-network-mobile{
-		color: white;
-		font-family: 'Barlow', sans-serif;
-		margin: auto;
-		display: flex;
-		font-size: 2em;
-		padding-top: 10vh;
-		position: absolute;
-		bottom: 0;
-		padding-bottom: 3vh;
-		left: 50%;
-		transform: translate(-50%, -50%);
-		top: 92%;
-	}
-
-	.social-network-mobile a{
-		padding-left: 2.5vw;
-		padding-right: 2.5vw;
-		text-align: center;
-	}
-
-	.social-network-mobile a:hover{
-		text-decoration: line-through;
-	}
-
-	.orange {
-		font-family: 'Barlow', sans-serif;
-		background-color: white;
-		border-color: grey;
-		color: black;
-		padding: .5rem 2em;
-		font-size: 2em;
-		line-height: 1.5;
-		border-radius: 4px;
-		cursor: pointer;
-		width: 40vw;
-	}
 }
