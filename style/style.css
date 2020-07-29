@@ -1207,6 +1207,10 @@ textarea{
 		box-sizing: border-box;
 	}
 
+	.form-control-message{
+		height: 20vh;
+	}
+
 	.background-formulaire-mobile{
 		text-align: center;
 		margin-left: auto;
@@ -1215,8 +1219,8 @@ textarea{
 		width: auto;
 	}
 
-	.questionnaire{
-		padding-top: 2vh;
+	.questionnaire-mobile{
+		padding-top: 6vh;
 	}
 
 	.titre-menu-mobile{
@@ -1231,32 +1235,6 @@ textarea{
 		text-align: center;
 		padding-top: 20px;
 		padding-bottom: 20px;
-	}
-
-	.orange {
-		font-family: 'Barlow', sans-serif;
-		background-color: white;
-		border-color: grey;
-		color: black;
-		padding: .5rem 2em;
-		font-size: 1em;
-		line-height: 1.5;
-		border-radius: 4px;
-		cursor: pointer;
-	}
-	.orange:hover {
-		background-color: grey;
-		border-color: black;
-		color: black;
-	}
-
-	.texte-probleme{
-		font-family: 'Barlow', sans-serif;
-		color: white;
-	}
-
-	.protectionspam{
-		display: none;
 	}
 
 }
