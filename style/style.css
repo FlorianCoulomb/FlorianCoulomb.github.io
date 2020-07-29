@@ -1255,5 +1255,9 @@ textarea{
 	.social-network-mobile{
 		color: white;
 		font-family: 'Barlow', sans-serif;
+		text-align: center;
+		width: auto;
+		margin: auto;
+		padding-right: 1vh;
 	}
 }
