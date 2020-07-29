@@ -901,7 +901,7 @@ textarea{
 		padding-top: 50px;
 		background-color: #04142c;
 		width: 100vw;
-		height: 100vh;
+		padding-bottom: 7vh;
 	}
 
 	.paragraphe-perso{
@@ -1236,7 +1236,7 @@ textarea{
 	}
 
 	.questionnaire-mobile{
-		padding-top: 6vh;
+		padding-top: 3vh;
 		text-align: center;
 	}
 
@@ -1255,6 +1255,7 @@ textarea{
 	}
 
 	.titre-reseaux-mobile{
+		display: none;
 		font-size: 3em;
 		color: white;
 		width: auto;
