@@ -1254,15 +1254,6 @@ textarea{
 		padding-bottom: 20px;
 	}
 
-	.titre-reseaux-mobile{
-		display: none;
-		font-size: 3em;
-		color: white;
-		width: auto;
-		text-align: center;
-		padding-top: 10vh;
-	}
-
 	.social-network-mobile{
 		color: white;
 		font-family: 'Barlow', sans-serif;
