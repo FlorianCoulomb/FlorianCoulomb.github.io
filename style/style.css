@@ -778,9 +778,10 @@ textarea{
 		left: 4vw;
 		font-size: 2.5em;
 		width: auto;
+		color: white;
 	}
 
-	.text-block p{
+	.text-block{
 		color: white;
 	}
 	
