@@ -1182,6 +1182,7 @@ textarea{
 		width: 80vw;
 		margin-right: 5vw;
 		margin: auto;
+		padding-bottom: 2vh;
 	}
 
 	.coordonnee-compétence-loisir{
