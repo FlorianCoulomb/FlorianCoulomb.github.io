@@ -1135,7 +1135,8 @@ textarea{
 	}
 
 	.section-cv h3{
-		padding-bottom: 5vh;
+		margin-top: 5vh;
+		padding-bottom: 3vh;
 	}
 
 	.section-cv{
@@ -1146,7 +1147,7 @@ textarea{
 		margin-right: auto;
 		margin-left: auto;
 		border-radius: 4px;
-		padding-bottom: 20px;
+		padding-bottom: 2vh;
 	}
 
 	.div-footer-cv{
@@ -1181,7 +1182,6 @@ textarea{
 		width: 80vw;
 		margin-right: 5vw;
 		margin: auto;
-		padding-bottom: 9vh;
 	}
 
 	.coordonnee-compétence-loisir{
@@ -1223,7 +1223,7 @@ textarea{
 		width: auto;
 		border-radius: 4px;
 		font-family: 'Barlow', sans-serif;
-		font-size: 1.2em;
+		font-size: 1em;
 		color: #fff;
 		padding-bottom: 7vh;
 	}
