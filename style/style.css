@@ -263,7 +263,6 @@ footer li:hover{
 }
 
 .image-portfolio{
-	border: solid black 0.5px;
 	display: block;
 	height: 150px;
 	width: 1000px;
@@ -271,7 +270,6 @@ footer li:hover{
 }
 
 .projet .hover-projet{
-	border: solid black 0.5px;
 	position: absolute;
 	opacity: 1;
 	transition: 0.5s ease;
@@ -648,6 +646,10 @@ textarea{
 	width: 250px;
 }
 
+.br-coordonnées{
+	display: block;
+}
+
 .date p{
 	color: #06B7FB;
 	padding-top: 58px;
@@ -733,7 +735,7 @@ textarea{
 		color: #06B7FB;
 		padding-bottom: 30px;
 		font-family: 'Barlow', sans-serif;
-		font-size: 1.7em;
+		font-size: 1.5em;
 		font-weight: 500;
 	}
 
@@ -892,12 +894,13 @@ textarea{
 
 	.paragraphe-perso{
 		color: white;
-		width: 90vw;
+		width: 80vw;
 		font-family: 'Barlow', sans-serif;
-		font-size: 1.2em;
 		word-spacing: 1px;
 		text-align: justify;
 		margin: auto;
+		font-size: 1.2em;
+		font-weight: 300;
 	}
 
 	.information-client{
@@ -1100,5 +1103,126 @@ textarea{
 		opacity: 1;
 		transition: 0.5s;
 	}
+
+	/** CSS DU CV MOBILE**/
+
+	.body-cv-about{
+		background-color: #04142c;
+	}
+
+	.section-cv h1, h2{
+		color: white;
+		padding-left: 0vw;
+		width: 100vw;
+		text-align: center;
+		font-size: 2em;
+	}
+
+	.section-cv h2{
+		padding-top: 2vh;
+		padding-top: 1.5vh;
+		margin-left: 0px;
+		color: #06B7FB;
+		font-family: 'Barlow', sans-serif;
+		font-size: 1.5em;
+		width: 70vw;
+		text-align: center;
+		margin: auto;
+	}
+
+	.section-cv{
+		width: 100vw;
+		padding-right: 1vw;
+		padding-left: 1vw; 
+		margin-top: 10px;
+		margin-right: auto;
+		margin-left: auto;
+		border-radius: 4px;
+		padding-bottom: 20px;
+	}
+
+	.div-footer-cv{
+		background-color: rgba(0, 0, 0, 0);
+	}
+
+	.information-cv{
+		display: block;
+		padding-top: 70px;
+	}
+
+	.information-cv p{
+		color: white;
+		margin-bottom: 80px;
+		font-weight: 200;
+	}	
+
+	.date{
+		display: none;
+		width: 70vw;
+		font-size: 1em;
+	}
+
+	.formation-experience{
+		font-size: 1.2em;
+		width: 80vw;
+		margin-right: 5vw;
+		margin: auto;
+		padding-bottom: 9vh;
+	}
+
+	.coordonnee-compétence-loisir{
+		width: 80vw;
+		display: block;
+		font-size: 1.2em;
+	}
+
+	.br-coordonnées{
+		display: none;
+	}
+
+	.date p{
+		display: none;
+		color: #06B7FB;
+		padding-top: 58px;
+		text-align: right;
+		padding-right: 1vw;
+	}
+
+	.image-cv{
+		display: none;
+		padding-right: 1vw;
+		padding-top: 61px;
+		flex: 1;
+	}
+
+	.image1-cv{
+		width: 8.9px;
+		padding-bottom: 166px;
+	}
+
+	.image2-cv{
+		width: 8.9px;
+	}
+
+	.cv-telechargeable{
+		text-align: center;
+		width: auto;
+		border-radius: 4px;
+		font-family: 'Barlow', sans-serif;
+		font-size: 1.2em;
+		color: #fff;
+		padding-bottom: 7vh;
+	}
+
+	.cv-telechargeable a{
+		color: #06B7FB;
+		
+	}
+
+	.cv-telechargeable a:hover{
+		color: white;
+		transition: 0.3s;
+	}
+
 
 }
