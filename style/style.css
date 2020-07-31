@@ -908,7 +908,7 @@ textarea{
 	}
 
 	.information-client{
-		padding-top: 10vh;
+		padding-top: 5vh;
 		width: 100vw;
 		text-align: center;
 	}
@@ -1220,7 +1220,7 @@ textarea{
 
 	.cv-telechargeable{
 		text-align: center;
-		width: auto;
+		width: 80vw;
 		border-radius: 4px;
 		font-family: 'Barlow', sans-serif;
 		font-size: 1em;
