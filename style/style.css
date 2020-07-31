@@ -1113,13 +1113,13 @@ textarea{
 	.body-cv-about{
 		background-color: #04142c;
 	}
-
+	
 	.section-cv h1, h2{
 		color: white;
 		padding-left: 0vw;
 		width: 100vw;
 		text-align: center;
-		font-size: 2em;
+		font-size: 3em;
 	}
 
 	.section-cv h2{
@@ -1128,10 +1128,14 @@ textarea{
 		margin-left: 0px;
 		color: #06B7FB;
 		font-family: 'Barlow', sans-serif;
-		font-size: 1.5em;
+		font-size: 2em;
 		width: 70vw;
 		text-align: center;
 		margin: auto;
+	}
+
+	.section-cv h3{
+		padding-bottom: 5vh;
 	}
 
 	.section-cv{
