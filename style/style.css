@@ -632,6 +632,10 @@ textarea{
 	font-weight: 200;
 }	
 
+.b-cv-mobile{
+	display: none;
+}
+
 .date{
 	width: 350px;
 }
@@ -1155,6 +1159,12 @@ textarea{
 		margin-bottom: 80px;
 		font-weight: 200;
 	}	
+
+	.b-cv-mobile{
+		display: block;
+		color: #06B7FB;
+		font-family: 'Barlow', sans-serif;
+	}
 
 	.date{
 		display: none;
