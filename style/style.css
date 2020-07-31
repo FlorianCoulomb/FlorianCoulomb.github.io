@@ -1119,7 +1119,7 @@ textarea{
 		padding-left: 0vw;
 		width: 100vw;
 		text-align: center;
-		font-size: 3em;
+		font-size: 5em;
 	}
 
 	.section-cv h2{
@@ -1127,11 +1127,10 @@ textarea{
 		margin-left: 0px;
 		color: #06B7FB;
 		font-family: 'Barlow', sans-serif;
-		font-size: 2em;
+		font-size: 2.5em;
 		width: 70vw;
 		text-align: center;
 		margin: auto;
-		padding-bottom: 5vh;
 	}
 
 	.section-cv h3{
@@ -1231,6 +1230,7 @@ textarea{
 
 	.cv-telechargeable a{
 		color: #06B7FB;
+		font-size: 1em;
 		
 	}
 
