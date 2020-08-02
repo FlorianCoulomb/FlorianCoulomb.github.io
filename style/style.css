@@ -1227,8 +1227,8 @@ textarea{
 	}
 
 	.cv-telechargeable a{
-		color: #06B7FB;
-		
+		color: rgb(255, 255, 255);
+		font-size: 1.5em;
 	}
 
 	.cv-telechargeable a:hover{
