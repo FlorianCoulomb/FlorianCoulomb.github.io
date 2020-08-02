@@ -1140,6 +1140,8 @@ textarea{
 
 	.section-cv{
 		width: 100vw;
+		padding-left: 0vw;
+		padding-right: 0vw;
 		margin-top: 10px;
 		margin-right: auto;
 		margin-left: auto;
@@ -1227,7 +1229,7 @@ textarea{
 	}
 
 	.cv-telechargeable a{
-		color: rgb(255, 255, 255);
+		color: #06B7FB;
 		font-size: 1.5em;
 	}
 
