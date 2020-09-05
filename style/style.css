@@ -808,7 +808,7 @@ textarea{
 	}
 
 	.icon-menu{
-		width: 100px;
+		width: 120px;
 	}
 
 	/** CSS DU MENU MOBILE **/
@@ -816,6 +816,7 @@ textarea{
 	.icon-close-mobile {
 		transition: right .6s ease-in-out;
 		cursor: pointer;
+		margin-right: 90vw;
 	}
 
 	.toggle-form-mobile{
@@ -823,7 +824,7 @@ textarea{
 	}
 
 	.toggle-form-mobile .formwrapmobile img {
-		width: 80px;
+		width: 100px;
 		padding-top: 4vh;
 		padding-left: 6.5vw;
 		
@@ -869,6 +870,10 @@ textarea{
 		max-width: 100vw;
 		height: 100%;
 		float: left;
+	}
+
+	.background-formulaire-mobile{
+		margin-top: 35%;
 	}
 
 	.form-group-mobile{
