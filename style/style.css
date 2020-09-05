@@ -977,7 +977,6 @@ textarea{
 	.div-footer-cv{
 		background-color: #04142c;
 		padding-top: 0;
-	
 	}
 
 	.section-about{
@@ -1007,7 +1006,7 @@ textarea{
 	}
 
 	#h1-about h1{
-		padding-top: 0;
+		padding-top: 10vh;
 		color: white;
 		padding-left: 0vw;
 	}
