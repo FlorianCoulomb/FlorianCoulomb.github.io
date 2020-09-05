@@ -825,18 +825,17 @@ textarea{
 
 	.toggle-form-mobile .formwrapmobile img {
 		width: 100px;
-		padding-top: 4vh;
-		padding-left: 6.5vw;
-		
+		margin-top: 4vh;
+		margin-left: 6.5vw;
 	}
 
 	.toggle-form-mobile a{
-		font-size: 8em;
+		font-size: 6em;
 		color: white;
 		text-align: center;
 		margin-bottom: 10px;
 		font-family: 'Barlow', sans-serif;
-		font-weight: 500;
+		font-weight: 400;
 
 	}
 	.texte-formulaire{
@@ -866,14 +865,14 @@ textarea{
 	}
 
 	.formwrapmobile {
-		background-color: hsla(216, 83%, 9%, 0.993);
+		background-color: rgba(4, 19, 42, 0.993);
 		max-width: 100vw;
 		height: 100%;
 		float: left;
 	}
 
 	.background-formulaire-mobile{
-		margin-top: 35%;
+		padding-top: 15vh;
 	}
 
 	.form-group-mobile{
