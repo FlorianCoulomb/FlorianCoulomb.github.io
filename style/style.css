@@ -978,6 +978,7 @@ textarea{
 	.div-footer-cv{
 		background-color: #04142c;
 		padding-top: 0;
+	
 	}
 
 	.section-about{
@@ -1274,10 +1275,6 @@ textarea{
 		margin-left: auto;
 		border-radius: 4px;
 		padding-bottom: 2vh;
-	}
-
-	.div-footer-cv{
-		background-color: rgba(0, 0, 0, 0);
 	}
 
 	.information-cv{
