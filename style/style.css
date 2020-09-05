@@ -822,11 +822,6 @@ textarea{
 		display: block;
 	}
 
-	.background-formulaire-mobile{
-		margin-top: 100vh;
-		transform: translateY(-30%);
-	}
-
 	.toggle-form-mobile .formwrapmobile img {
 		width: 80px;
 		padding-top: 4vh;
