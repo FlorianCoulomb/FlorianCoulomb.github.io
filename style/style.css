@@ -869,7 +869,7 @@ textarea{
 	}
 
 	.background-formulaire-mobile{
-		padding-top: 15vh;
+		padding-top: 10vh;
 	}
 
 	.form-group-mobile{
@@ -944,13 +944,12 @@ textarea{
 		position: absolute;
 		display: flex;
 		text-align: center;
-		padding-left: 4vw;
-		left: 16%;
+		padding-left: 7vw;
 		top: 94%;
 	}
 
 	.social-network-mobile li{
-		font-size: 2.5em;
+		font-size: 3.5em;
 		color: #fff;
 		padding-right: 3vw;
 		text-align: center;	
