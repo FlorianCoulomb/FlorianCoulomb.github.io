@@ -943,6 +943,7 @@ textarea{
 	}
 
 	.social-network-mobile{
+		display: none;
 		display: flex;
 		text-align: center;
 		padding-left: 4vw;
