@@ -878,7 +878,7 @@ textarea{
 		margin-right: auto;
 		text-align: center;
 		width: 100vw;
-		font-size: 6.5em;
+		font-size: 6em;
 		font-weight: 500;
 	}
 
@@ -944,7 +944,7 @@ textarea{
 		position: absolute;
 		display: flex;
 		text-align: center;
-		padding-left: 7vw;
+		padding-left: 5vw;
 		top: 94%;
 	}
 
