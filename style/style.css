@@ -921,12 +921,6 @@ textarea{
 
 	/** CSS DE LA BARRE DES RÉSEAUX SOCIAUX MOBILE **/ 
 
-	.div-footer-mobile{
-		margin-left: auto;
-		margin-right: auto;
-		width: 100vw;
-	}
-
 	footer{
 		display: none;
 		background-color: #21212100;
@@ -949,8 +943,10 @@ textarea{
 	.social-network-mobile{
 		position: absolute;
 		display: flex;
-		left: 50%;
-		top: 95%;
+		text-align: center;
+		padding-left: 4vw;
+		left: 16%;
+		top: 94%;
 	}
 
 	.social-network-mobile li{
