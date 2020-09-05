@@ -808,7 +808,7 @@ textarea{
 	}
 
 	.icon-menu{
-		width: 50px;
+		width: 100px;
 	}
 
 	/** CSS DU MENU MOBILE **/
@@ -822,19 +822,25 @@ textarea{
 		display: block;
 	}
 
+	.background-formulaire-mobile{
+		margin-top: 100vh;
+		transform: translateY(-30%);
+	}
+
 	.toggle-form-mobile .formwrapmobile img {
-		width: 30px;
+		width: 80px;
 		padding-top: 4vh;
 		padding-left: 6.5vw;
 		
 	}
 
 	.toggle-form-mobile a{
-		font-size: 4em;
+		font-size: 8em;
 		color: white;
 		text-align: center;
 		margin-bottom: 10px;
 		font-family: 'Barlow', sans-serif;
+		font-weight: 500;
 
 	}
 	.texte-formulaire{
@@ -982,6 +988,7 @@ textarea{
 		padding-left: 0;
 		margin-top: 100vh;
 		width: 100vw;
+		height: 100vh;
 		background-color: #04142c;
 		padding-top: 7vh;
 		padding-bottom: 0;
