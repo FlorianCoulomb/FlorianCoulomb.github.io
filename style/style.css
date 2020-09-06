@@ -872,9 +872,7 @@ textarea{
 	}
 
 	.background-formulaire-mobile{
-		display: table-cell;
-		vertical-align: middle;
-		height: 80vh;
+		transform: translateY(12%); 
 	}
 
 	.form-group-mobile{
