@@ -871,10 +871,6 @@ textarea{
 		float: left;
 	}
 
-	.background-formulaire-mobile{
-		transform: translateY(12%); 
-	}
-
 	.form-group-mobile{
 		padding-top: 3vh;
 		margin-left: auto;
@@ -893,9 +889,10 @@ textarea{
 		text-align: center;
 		margin-left: auto;
 		margin-right: auto;
-		margin-top: 3vh;
+		margin-top: 50vh;
 		height: 100vh;
 		width: 100vw;
+		transform: translateY(-35%);
 	}
 
 	.titre-formulaire{
