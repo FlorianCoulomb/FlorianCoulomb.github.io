@@ -873,7 +873,8 @@ textarea{
 
 	.background-formulaire-mobile{
 		display: table-cell;
-  		vertical-align: middle;
+		vertical-align: middle;
+		height: 80vh;
 	}
 
 	.form-group-mobile{
