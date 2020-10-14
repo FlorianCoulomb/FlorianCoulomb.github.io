@@ -1038,7 +1038,7 @@ textarea{
 		word-spacing: 1px;
 		text-align: justify;
 		margin: auto;
-		font-size: 2em;
+		font-size: 1.5em;
 		font-weight: 300;
 	}
 
@@ -1245,6 +1245,10 @@ textarea{
 
 	/** CSS DU CV MOBILE**/
 
+	.b{
+		font-size: 2em;
+	}
+
 	.body-cv-about{
 		background-color: #04142c;
 	}
@@ -1299,16 +1303,17 @@ textarea{
 		display: block;
 		color: #06B7FB;
 		font-family: 'Barlow', sans-serif;
+		font-size: 2em;
 	}
 
 	.date{
 		display: none;
 		width: 70vw;
-		font-size: 1em;
+		font-size: 2em;
 	}
 
 	.formation-experience{
-		font-size: 1.2em;
+		font-size: 2em;
 		width: 80vw;
 		margin-right: 5vw;
 		margin: auto;
