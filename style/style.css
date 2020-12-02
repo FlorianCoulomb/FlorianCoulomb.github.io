@@ -171,18 +171,18 @@ footer li:hover{
 	padding-left: 6vh;
 }
 
-/** CCS DE L'INDEX **/
+/** CSS DE L'INDEX **/
 
 
 .div-index{
-	margin-top: 50vh;
+	margin-top: 49vh;
 	transform: translateY(-50%);
 	width: 100vw;
 }
 
 .h1-index{
 	text-align: center;
-	font-size: 7em;
+	font-size: 6.5em;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
 	color: rgb(255, 255, 255);
@@ -957,7 +957,7 @@ textarea{
 		font-weight: 300;
 	}
 
-	/** CCS DE L'INDEX MOBILE **/
+	/** CSS DE L'INDEX MOBILE **/
 
 	.div-index{
 		margin-top: 45vh;
@@ -1038,7 +1038,7 @@ textarea{
 		word-spacing: 1px;
 		text-align: justify;
 		margin: auto;
-		font-size: 1.5em;
+		font-size: em;
 		font-weight: 300;
 	}
 
@@ -1208,7 +1208,7 @@ textarea{
 		width: 75vw;
 		font-family: 'Barlow', sans-serif;
 		margin: auto;
-		font-size: 1.5em;
+		font-size: 2em;
 		font-weight: 300;
 		line-height: 1.7;
 	}
@@ -1246,7 +1246,7 @@ textarea{
 	/** CSS DU CV MOBILE**/
 
 	.b{
-		font-size: 1.5em;
+		font-size: 2em;
 	}
 
 	.body-cv-about{
@@ -1303,17 +1303,17 @@ textarea{
 		display: block;
 		color: #06B7FB;
 		font-family: 'Barlow', sans-serif;
-		font-size: 1.5em;
+		font-size: 2em;
 	}
 
 	.date{
 		display: none;
 		width: 70vw;
-		font-size: 1.5em;
+		font-size: 2em;
 	}
 
 	.formation-experience{
-		font-size: 1.2em;
+		font-size: 2em;
 		width: 80vw;
 		margin-right: 5vw;
 		margin: auto;
