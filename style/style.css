@@ -766,7 +766,8 @@ textarea{
 
 	p{
 		font-family: 'Barlow', sans-serif;
-		color: black;	
+		color: black;
+		font-size: 2em;
 	}
 
 	b{	
@@ -1018,6 +1019,8 @@ textarea{
 		padding-top: 10vh;
 		color: white;
 		padding-left: 0vw;
+		font-size: 5em;
+		padding-bottom: 3vh;
 	}
 
 	.image-about{
@@ -1038,7 +1041,7 @@ textarea{
 		word-spacing: 1px;
 		text-align: justify;
 		margin: auto;
-		font-size: 1.2em;
+		font-size: 2em;
 		font-weight: 300;
 	}
 
@@ -1046,6 +1049,7 @@ textarea{
 		padding-top: 5vh;
 		width: 100vw;
 		text-align: center;
+		font-size: 2em;
 	}
 
 
@@ -1271,6 +1275,7 @@ textarea{
 	.section-cv h3{
 		margin-top: 5vh;
 		padding-bottom: 3vh;
+		font-size: 3em;
 	}
 
 	.section-cv{
@@ -1299,7 +1304,6 @@ textarea{
 		display: block;
 		color: #06B7FB;
 		font-family: 'Barlow', sans-serif;
-		font-size: 2em;
 	}
 
 	.date{
