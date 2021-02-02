@@ -189,7 +189,7 @@ footer li:hover{
 }
 
 .p-index{
-	margin-top: 4px;
+	margin-top: 0px;
 	text-align: center;
 	font-family: 'Barlow', sans-serif;
 	letter-spacing: 11px;
@@ -415,7 +415,7 @@ footer li:hover{
 	width: 700px;
 	font-family: 'Barlow', sans-serif;
 	margin: auto;
-	font-size: 2em;
+	font-size: 1.2em;
 	font-weight: 300;
 	line-height: 1.7;
 }
@@ -1208,7 +1208,7 @@ textarea{
 		width: 75vw;
 		font-family: 'Barlow', sans-serif;
 		margin: auto;
-		font-size: 1.2em;
+		font-size: 2em;
 		font-weight: 300;
 		line-height: 1.7;
 	}
